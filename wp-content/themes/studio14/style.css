@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*!
 Theme Name: Studio14
 Theme URI: http://underscores.me/
@@ -23,7 +22,6 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -34,44 +32,64 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- State
 
 --------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
 # Custom Style
 --------------------------------------------------------------*/
-
 /* Import Custom Styles
 --------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  font-family: Simonetta, cursive;
+}
 
 h1 {
-	font-size: 64px;
+  font-size: 64px;
 }
 
 h2 {
-	font-size: 36px;
+  font-size: 36px;
 }
 
 h3 {
-	font-size: 24px;
-	line-height: 30px;
+  font-size: 24px;
 }
 
 h4 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 h5 {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 h6 {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 p {
-	font-size: 12px;
+  font-size: 12px;
+}
+
+ul, li {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+li {
+  font-style: normal;
+  font-family: Simonetta, cursive;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.menu-toggle {
+  display: none;
 }
 
 /*
@@ -86,3 +104,125 @@ $breakpoint arguments choices:
 -xl
 1em = 16px
 */
+.site-wrapper {
+  padding: 0 0;
+  margin: auto;
+  width: 81%;
+  padding-left: 139px;
+  padding-right: 138px;
+}
+
+.nav {
+  width: 100%;
+}
+.nav nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  align-items: center;
+}
+.nav nav .main-navigation {
+  display: flex;
+  width: 385px;
+  padding-top: 0;
+}
+.nav nav .main-navigation .nav-buttom-list {
+  width: 100%;
+}
+.nav nav .main-navigation .nav-buttom-list .list-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav nav .main-navigation .nav-buttom-list .list-menu .menu-item {
+  list-style: none;
+}
+.nav nav .main-navigation .nav-buttom-list .list-menu .menu-item a {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Simonetta, cursive;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+}
+
+.footer-section {
+  width: 100%;
+  height: 431px;
+  background-color: #000;
+}
+.footer-section .footer-holder {
+  display: flex;
+  flex-direction: column;
+}
+.footer-section .footer-holder .footer-first-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #fff;
+  padding-top: 70px;
+}
+.footer-section .footer-holder .footer-first-section .first {
+  display: flex;
+  flex-direction: column;
+}
+.footer-section .footer-holder .footer-first-section .first .header {
+  width: 438px;
+}
+.footer-section .footer-holder .footer-first-section .first .header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer-section .footer-holder .footer-first-section .first .paragragh {
+  width: 360px;
+  padding-top: 33px;
+}
+.footer-section .footer-holder .footer-first-section .first .paragragh p {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 19px;
+}
+.footer-section .footer-holder .footer-first-section .first .form {
+  width: 510px;
+  height: 48px;
+  display: flex;
+  gap: 11px;
+  padding-top: 32px;
+}
+.footer-section .footer-holder .footer-first-section .first .form input {
+  width: 342px;
+  border: 2px solid #fff;
+  background-color: #000;
+  color: #fff;
+  padding-left: 36px;
+}
+.footer-section .footer-holder .footer-first-section .first .form button {
+  width: 157px;
+  background-color: #ff2546;
+  color: #fff;
+  border: none;
+}
+.footer-section .footer-holder .footer-first-section .second {
+  display: flex;
+  flex-direction: row;
+}
+.footer-section .footer-holder .footer-first-section .second .contact span:nth-of-type(1) h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer-section .footer-holder .footer-first-section .second .contact span:nth-of-type(2) p span:nth-of-type(1) {
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 15px;
+}
+.footer-section .footer-holder .footer-first-section .second .contact span:nth-of-type(2) p span:nth-of-type(2) {
+  color: #ff2546;
+  font-size: 12px;
+  line-height: 15px;
+}
+.footer-section .footer-holder .footer-first-section .second .find-out-more h3:nth-of-type(1) {
+  margin-top: 0;
+  margin-bottom: 0;
+}/*# sourceMappingURL=style.css.map */

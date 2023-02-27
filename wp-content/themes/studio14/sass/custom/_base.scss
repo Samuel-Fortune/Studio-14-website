@@ -10,6 +10,21 @@ $largest-sizing: 36px;
 $extralarge-sizing: 64px;
 
 //Colors
+$primary-color: #000;
+$secondary-color: #fff;
+$tertiary-color: #ff2546;
+$main-color: #eb5757;
+$header-color: #333;
+$footer-text-color: #828282;
+$main-bg-color: #e5e5e5;
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: $main-bg-color;
+	font-family: Simonetta, cursive;
+}
 
 h1 {
 	font-size: $extralarge-sizing;
@@ -21,7 +36,6 @@ h2 {
 
 h3 {
 	font-size: $larger-sizing;
-	line-height: 30px;
 }
 
 h4 {
@@ -39,6 +53,28 @@ h6 {
 p {
 	font-size: $smaller-sizing;
 }
+
+ul {
+	list-style: none;
+	// line-height: $larger-sizing;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+li {
+
+	@extend ul;
+
+	font-style: normal;
+	font-family: Simonetta, cursive;
+	font-weight: 700;
+	font-size: $Large-sizing;
+}
+
+.menu-toggle {
+	display: none;
+}
+
 
 /*
 0-640px: phone

@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying  contact pages
  *
- * This is the template that displays all pages by default.
+ * This is the template that displays contact pages by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site may use a
  * different template.
@@ -21,7 +21,7 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', 'contact' );
+			get_template_part( 'template-parts/content', 'content-contact' );
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
