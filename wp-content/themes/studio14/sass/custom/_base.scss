@@ -23,7 +23,7 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	background-color: $main-bg-color;
-	font-family: Simonetta, cursive;
+	font-family: Simonetta;
 }
 
 h1 {
@@ -66,7 +66,7 @@ li {
 	@extend ul;
 
 	font-style: normal;
-	font-family: Simonetta, cursive;
+	font-family: Simonetta;
 	font-weight: 700;
 	font-size: $Large-sizing;
 }

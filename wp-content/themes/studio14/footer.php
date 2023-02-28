@@ -19,11 +19,23 @@
 					<div class="first">
 						<span class="header">
 							<h3>Keep in the loop. We won’t spam you.</h3>
+							<!-- <?php
+								// wp_nav_menu(
+								// array(
+								// 	'theme_location' => 'footer-menu-1',
+								// 	'container' => '',
+								// 	'items_wrap' => '<span>%3$s</span>',
+
+								// )
+								// );
+							?> -->
 						</span>
 
 						<span class="paragragh">
-							<p>Sign up to our mailing list to find out  more information
-							  and keep up to date about our activities
+							<p>
+								<?php
+									echo get_theme_mod ('footer_text')
+								?>
 							</p>
 						</span>
 						<span class="form">
@@ -39,13 +51,24 @@
 							</span>
 							<span>
 								<p> <span>e-mail</span> <br>
-								   <span>hello@studio14online.co.uk</span> <br> <br>
+								   <span> 
+										<?php
+											echo get_theme_mod ('footer_email')
+										?>
+									</span> <br> <br>
 								   <span>
 									   address
-								   </span>
-									4d Olatunbosun Street,
-									Shonibare Estate, Ikeja, Lagos
-									Nigeria
+								   </span> <br>
+
+								   	<?php
+										echo get_theme_mod ('footer_address')
+									?><br>
+									<?php
+										echo get_theme_mod ('footer_address_2')
+									?><br>
+									<?php
+										echo get_theme_mod ('footer_address_3')
+									?>
 								</p>
 							</span>
 						</div>
@@ -53,15 +76,31 @@
 						<div class="find-out-more">
 							<h3>Find Out More</h3>
 							<span>
-								<img src="" alt="">
-								<img src="" alt="">
+								<img src="<?php echo get_template_directory_uri() ?>/asset/icons/facebook.png" alt="">
+								<img src="<?php echo get_template_directory_uri() ?>/asset/icons/instagram.png" alt="">
 							</span>
 						</div>
 					</div>
 				</div>
-				<!--LAST FOOTER SECTION -->
-				<div class="footer-second-section"></div>
+			
 			</div>
+		</div>
+
+		<!--LAST FOOTER SECTION -->
+		<div class="footer-second-section">
+			<div class="site-wrapper">
+				<div class="footer">
+					<div class="rights">
+						<p>© 2019 Studio 14 ltd - All rights reserved.</p>
+					</div>
+					<div>
+						<p>Privacy Policy</p>
+						<p>Terms and Conditions</p>
+					</div>
+				</div>
+
+			</div>
+					
 		</div>
 
 	</footer>

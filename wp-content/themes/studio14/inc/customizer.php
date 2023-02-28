@@ -31,6 +31,149 @@ function studio14_customize_register( $wp_customize ) {
 			)
 		);
 	}
+	/**
+	 * Add our Footer & Navigation Panel
+	 */
+	$wp_customize->add_panel( 'footer_navigation_panel',
+		array(
+			'title' => __( 'Footer & Navigation' ),
+			'description' => esc_html__( 'Adjust your Header and Navigation sections.' ), // Include html tags such as 
+
+			'priority' => 50, // Not typically needed. Default is 160
+			'capability' => 'edit_theme_options', // Not typically needed. Default is edit_theme_options
+			'theme_supports' => '', // Rarely needed
+			'active_callback' => '', // Rarely needed
+		)
+	);
+	/**
+	 * Add our Footer & Navigation Section
+	 */
+	$wp_customize->add_section( 'footer_navigation_section',
+		array(
+			'title' => __( 'Footer Section' ),
+			'description' => esc_html__( 'Adjust your Header and Navigation sections.' ), // Include html tags such as 
+			'panel' => 'footer_navigation_panel', 
+		)
+	);
+
+	/**
+	 * Add our Footer & Navigation Settings
+	 */
+	$wp_customize->add_setting( 'footer_address');
+
+	/**
+	 * Add our Footer & Navigation Section
+	 */
+		
+	 $wp_customize->add_control( 'footer_address',
+	 array(
+	 'label' => __( 'Footer Address' ),
+	 'description' => esc_html__( 'Enter Address Details Form that shows in footer' ),
+	 'section' => 'footer_navigation_section',
+	 'type' => 'textarea', 
+	 'input_attrs' => array( // Optional.
+		 'class' => 'address-field',
+		 'style' => 'border: 1px solid purple',
+		 'placeholder' => __( 'Enter name...' ),
+		 ),
+	    )
+    );
+
+	/**
+	 * Add our Footer & Navigation Settings
+	 */
+	$wp_customize->add_setting( 'footer_address_2');
+
+	/**
+	 * Add our Footer & Navigation Section
+	 */
+		
+	 $wp_customize->add_control( 'footer_address_2',
+	 array(
+	 'label' => __( 'Footer Address 2' ),
+	 'description' => esc_html__( 'Enter Address Details Form that shows in footer' ),
+	 'section' => 'footer_navigation_section',
+	 'type' => 'textarea', 
+	 'input_attrs' => array( // Optional.
+		 'class' => 'address-field-2',
+		 'style' => 'border: 1px solid purple',
+		 'placeholder' => __( 'Enter name...' ),
+		 ),
+	    )
+    );
+
+		/**
+	 * Add our Footer & Navigation Settings
+	 */
+	$wp_customize->add_setting( 'footer_address_3');
+
+	/**
+	 * Add our Footer & Navigation Section
+	 */
+		
+	 $wp_customize->add_control( 'footer_address_3',
+	 array(
+	 'label' => __( 'Footer Address 3' ),
+	 'description' => esc_html__( 'Enter Address Details Form that shows in footer' ),
+	 'section' => 'footer_navigation_section',
+	 'type' => 'textarea', 
+	 'input_attrs' => array( // Optional.
+		 'class' => 'address-field-3',
+		 'style' => 'border: 1px solid purple',
+		 'placeholder' => __( 'Enter name...' ),
+		 ),
+	    )
+    );
+
+	/**
+	 * Add our Footer & Navigation Settings
+	 */
+	$wp_customize->add_setting( 'footer_email');
+
+	/**
+	 * Add our Footer & Navigation Section
+	 */
+	$wp_customize->add_control( 'footer_email',
+		array(
+		'label' => __( 'Footer Email' ),
+		'description' => esc_html__( 'Enter Email that shows infooter' ),
+		'section' => 'footer_navigation_section',
+		'type' => 'textarea', 
+		'input_attrs' => array( // Optional.
+			'class' => 'address-field',
+			'style' => 'border: 1px solid purple',
+			'placeholder' => __( 'Enter name...' ),
+			),
+		)
+	);
+
+
+	/**
+	 * Add our Footer & Navigation Settings
+	 */
+	$wp_customize->add_setting( 'footer_text');
+
+	/**
+	 * Add our Footer & Navigation Section
+	 */
+	$wp_customize->add_control( 'footer_text',
+		array(
+		'label' => __( 'Footer text' ),
+		'description' => esc_html__( 'Enter text that shows infooter' ),
+		'section' => 'footer_navigation_section',
+		'type' => 'textarea', 
+		'input_attrs' => array( // Optional.
+			'class' => 'text-field',
+			'style' => 'border: 1px solid purple',
+			'placeholder' => __( 'Enter name...' ),
+			),
+		)
+	);
+	/**
+	 * Add our Footer & Navigation Settings
+	 */
+	$wp_customize->add_setting( 'footer_address_text');
+
 }
 add_action( 'customize_register', 'studio14_customize_register' );
 

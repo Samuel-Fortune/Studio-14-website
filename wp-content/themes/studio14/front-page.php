@@ -1,7 +1,8 @@
 <?php get_header();
 ?>
 <!--MAIN-->
-<main>
+<main id="primary" class="site-main">
+    
     
 </main>
 
