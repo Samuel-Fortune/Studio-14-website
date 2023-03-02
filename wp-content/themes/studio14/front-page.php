@@ -19,6 +19,7 @@
                 </div>
             </div>
             <div class="banner2">
+                <!-- -->
                 <div>
                     <!-- -->
                     <div>
@@ -46,7 +47,7 @@
                         <div>
                             <span>
                                 <h3>Coindealer launches on NYSE</h3>
-                                <p>Very experienced software developers take it upon themselves to oversees programme. </p>
+                                <p>Very experienced software developers take <br> it upon themselves to oversees programme. </p>
                             </span>
                             <span>
                                 <h4>Business</h4>
@@ -58,7 +59,63 @@
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <!-- -->
+                <div class="last-three">
+                    <!--Blog3 -->
+                    <div class="blog3">
+                        <span class="blog-image"><img src="<?php echo get_template_directory_uri() ?>/asset/image/blog3.png" alt=""></span>
+                        <div class="content-wrapper">
+                            <span class="text-wrapper">
+                                <h3>Fibre Optic Network in West Africa</h3>
+                                <p>Very experienced software developers take it upon themselves to oversees programme. </p>
+
+                                <span class="read-more">
+                                    <h4>Business</h4>
+                                    <span>
+                                        <p>Read More</p>
+                                        <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <!--BLOG4 -->
+                    <div class="blog4">
+                        <span class="blog-image"><img src="<?php echo get_template_directory_uri() ?>/asset/image/blog4.png" alt=""></span>
+                        <div class="content-wrapper">
+                            <span class="text-wrapper">
+                                <h3>Coindealer launches on NYSE</h3>
+                                <p>Very experienced software developers take it upon themselves to oversees programme. </p>
+
+                                <span class="read-more">
+                                    <h4>Business</h4>
+                                    <span>
+                                        <p>Read More</p>
+                                        <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <!--BLOG5 -->
+                    <div class="blog5">
+                        <span class="blog-image"><img src="<?php echo get_template_directory_uri() ?>/asset/image/blog5.png" alt=""></span>
+                        <div class="content-wrapper">
+                            <span class="text-wrapper">
+                                <h3>Coindealer launches on NYSE</h3>
+                                <p>Very experienced software developers take it upon themselves to oversees programme. </p>
+
+                                <span class="read-more">
+                                    <h4>Business</h4>
+                                    <span>
+                                        <p>Read More</p>
+                                        <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>

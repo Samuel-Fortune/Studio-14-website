@@ -152,6 +152,8 @@ $breakpoint arguments choices:
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 117px;
+  padding-bottom: 100px;
 }
 .banner .banner1 {
   display: flex;
@@ -165,6 +167,8 @@ $breakpoint arguments choices:
 .banner .banner1 span:nth-of-type(1) h2 {
   font-weight: 400;
   font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .banner .banner1 .filter-posts {
   display: flex;
@@ -175,6 +179,12 @@ $breakpoint arguments choices:
 .banner .banner1 .filter-posts span:nth-of-type(1) {
   width: 117px;
 }
+.banner .banner1 .filter-posts span:nth-of-type(1) h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+}
 .banner .banner1 .filter-posts span:nth-of-type(2) {
   display: flex;
   background-color: #fff;
@@ -184,9 +194,17 @@ $breakpoint arguments choices:
   height: 44px;
   gap: 14px;
 }
+.banner .banner1 .filter-posts span:nth-of-type(2) h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+}
 .banner .banner2 {
   display: flex;
   flex-direction: column;
+  gap: 42px;
+  padding-top: 76px;
 }
 .banner .banner2 div:nth-of-type(1) {
   display: flex;
@@ -277,18 +295,17 @@ $breakpoint arguments choices:
   height: 242px;
 }
 .banner .banner2 div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(1) span:nth-of-type(1) h3 {
-  width: 364px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: -0.02em;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 21px;
+  padding-right: 21px;
   padding-top: 37px;
   padding-bottom: 0;
 }
 .banner .banner2 div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(1) span:nth-of-type(1) p {
-  width: 333px;
   height: 45px;
   font-style: normal;
   font-weight: 400;
@@ -305,9 +322,10 @@ $breakpoint arguments choices:
   justify-content: space-between;
   align-items: center;
   padding-left: 21px;
-  padding-right: 30px;
+  padding-right: 21px;
   height: 85px;
   padding-bottom: 33px;
+  width: 91%;
 }
 .banner .banner2 div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(1) span:nth-of-type(2) h4 {
   font-style: normal;
@@ -323,8 +341,217 @@ $breakpoint arguments choices:
   justify-content: center;
   padding-top: 0;
   cursor: pointer;
+  height: 28px;
+  width: 122px;
 }
 .banner .banner2 div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(1) span:nth-of-type(2) span h4 {
+  color: #ff2546;
+}
+.banner .banner2 .last-three {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.banner .banner2 .last-three .blog3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 375px;
+}
+.banner .banner2 .last-three .blog3 .blog-image img {
+  height: 100%;
+  width: 100%;
+}
+.banner .banner2 .last-three .blog3 .content-wrapper {
+  background-color: #fff;
+  height: 242.99px;
+}
+.banner .banner2 .last-three .blog3 .content-wrapper .text-wrapper {
+  padding-top: 37px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 33.99px;
+  height: auto;
+}
+.banner .banner2 .last-three .blog3 .content-wrapper .text-wrapper h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+.banner .banner2 .last-three .blog3 .content-wrapper .text-wrapper p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+.banner .banner2 .last-three .blog3 .content-wrapper .text-wrapper .read-more {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 51px;
+}
+.banner .banner2 .last-three .blog3 .content-wrapper .text-wrapper .read-more h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #828282;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.banner .banner2 .last-three .blog3 .content-wrapper .text-wrapper .read-more span {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.banner .banner2 .last-three .blog3 .content-wrapper .text-wrapper .read-more span p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff2546;
+}
+.banner .banner2 .last-three .blog4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 375px;
+}
+.banner .banner2 .last-three .blog4 .blog-image img {
+  height: 100%;
+  width: 100%;
+}
+.banner .banner2 .last-three .blog4 .content-wrapper {
+  background-color: #fff;
+  height: 242.99px;
+}
+.banner .banner2 .last-three .blog4 .content-wrapper .text-wrapper {
+  padding-top: 37px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 33.99px;
+  height: auto;
+}
+.banner .banner2 .last-three .blog4 .content-wrapper .text-wrapper h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+.banner .banner2 .last-three .blog4 .content-wrapper .text-wrapper p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  padding-top: 26.3px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.banner .banner2 .last-three .blog4 .content-wrapper .text-wrapper .read-more {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 51px;
+}
+.banner .banner2 .last-three .blog4 .content-wrapper .text-wrapper .read-more h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #828282;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.banner .banner2 .last-three .blog4 .content-wrapper .text-wrapper .read-more span {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.banner .banner2 .last-three .blog4 .content-wrapper .text-wrapper .read-more span p {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff2546;
+}
+.banner .banner2 .last-three .blog5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 375px;
+}
+.banner .banner2 .last-three .blog5 .blog-image img {
+  height: 100%;
+  width: 100%;
+}
+.banner .banner2 .last-three .blog5 .content-wrapper {
+  background-color: #fff;
+  height: 242.99px;
+}
+.banner .banner2 .last-three .blog5 .content-wrapper .text-wrapper {
+  padding-top: 37px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 33.99px;
+  height: auto;
+}
+.banner .banner2 .last-three .blog5 .content-wrapper .text-wrapper h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+.banner .banner2 .last-three .blog5 .content-wrapper .text-wrapper p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  padding-top: 26.3px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.banner .banner2 .last-three .blog5 .content-wrapper .text-wrapper .read-more {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 51px;
+}
+.banner .banner2 .last-three .blog5 .content-wrapper .text-wrapper .read-more h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #828282;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.banner .banner2 .last-three .blog5 .content-wrapper .text-wrapper .read-more span {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.banner .banner2 .last-three .blog5 .content-wrapper .text-wrapper .read-more span p {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
   color: #ff2546;
 }
 
