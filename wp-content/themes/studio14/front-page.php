@@ -66,7 +66,7 @@ $post_id = get_the_ID();
                                     </span>
                                 </div>
                             </div>
-                        <?php }
+                        <?php } 
                     } ?>
                 <!--BLOG2-->
                 <!-- <div class="blog2">
