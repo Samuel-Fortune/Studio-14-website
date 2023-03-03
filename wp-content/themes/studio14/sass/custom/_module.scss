@@ -585,6 +585,163 @@
 
 }
 
+//SINGLE POST
+.single-post {
+
+	.site-header {
+		margin-top: 35px;
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+
+		.nav-bar-links {
+
+			ul {
+
+				a {
+					color: $footer-text-color;
+				}
+
+			}
+		}
+
+	}
+
+	.main-blog-section {
+		width: 100%;
+		height: 100%;
+		height: 600px;
+		position: relative;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		.blog-title-wrapper {
+			height: 100%;
+
+			.main-blog-title {
+				position: relative;
+				vertical-align: bottom;
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				margin-left: 148px;
+
+				h3 {
+					color: $footer-text-color;
+					font-size: $extralarger-sizing;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+
+	.blog-content-section {
+
+		background-color: $main-bg-color;
+		padding-top: 30px;
+		border-right: 53px solid $footer-text-color;
+		border-left: 53px solid $footer-text-color;
+
+		.blog-content-wrapper {
+
+			padding-bottom: 135px;
+
+
+			.blog-content-top {
+
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-top: 25px;
+
+				span {
+					display: flex;
+					align-items: center;
+					gap: 10px;
+
+					form {
+
+						input {
+
+							border: 0;
+							background-color: transparent;
+							font-weight: 400;
+							font-size: $Large-sizing;
+						}
+					}
+				}
+
+				p {
+					font-weight: 700;
+					font-size: $medium-sizing;
+				}
+			}
+
+			span {
+
+				padding: 35px 0;
+				display: block;
+
+				p {
+					font-weight: 300;
+					font-size: 18px;
+					line-height: 28.31px;
+					margin: 15px;
+				}
+
+				h3 {
+					padding: 20px;
+					font-size: $largest-sizing;
+					font-weight: 400;
+
+				}
+			}
+		}
+	}
+
+	.contact-section {
+		background-color: $secondary-color;
+		// border-bottom: 1px solid $footer-text-color;
+
+		.contact-section-content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 10px;
+			padding: 90px 39px;
+
+			h3 {
+				color: $footer-text-color;
+				font-size: $extralarge-sizing;
+				font-weight: 700;
+
+			}
+
+			p {
+				color: $footer-text-color;
+				font-weight: 400;
+				font-size: $Large-sizing;
+			}
+
+			span {
+
+				padding-top: 25px;
+
+				button {
+					background-color: $primary-color;
+					border: 2px solid $primary-color;
+					color: $primary-color;
+					padding: 20px 63px;
+					display: flex;
+					align-items: center;
+					gap: 10px;
+				}
+			}
+		}
+	}
+}
+
 
 //FOOTER SECTION
 .footer-section {
