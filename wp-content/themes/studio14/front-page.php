@@ -24,17 +24,15 @@ $post_id = get_the_ID();
         <div class="site-wrapper">
             <div class="banner1">
                 <span>
-                    <h2>Together as partners we’ve built <br> better. See what we’re up to.
-            
-                    <?php echo get_field('title', $post_id); ?>
+                    <h2><?php echo get_field('title', $post_id); ?> <br> <?php echo get_field('title_2', $post_id); ?>
                     </h2>
                 </span>
                 <div class="filter-posts">
                     <span>
-                        <h4>Filter Posts:</h4>
+                        <h4><?php echo get_field('filter_post', $post_id); ?></h4>
                     </span>
                     <span>
-                        <h4>All Categories</h4>
+                        <h4><?php echo get_field('all_categories', $post_id); ?></h4>
                         <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-down.png" alt="">
                     </span>
                 </div>
@@ -73,9 +71,9 @@ $post_id = get_the_ID();
                                         <?php echo truncate($post_content, 90); }?></p>
                                     
                                         <span class="read-more">
-                                            <h4>Business</h4>
+                                            <h4><a href="#">Business</a></h4>
                                             <span>
-                                               <a href="#"><p>Read More</p></a>
+                                               <p><a href="<?php echo get_permalink(); ?>">Read More</></a></p>
                                                 <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
                                             </span>
                                         </span>

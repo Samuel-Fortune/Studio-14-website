@@ -258,28 +258,34 @@ $breakpoint arguments choices:
   padding-top: 47px;
 }
 .banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more h4 {
+  text-decoration: none;
+}
+.banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more h4 a {
   margin-top: 0;
   margin-bottom: 0;
   color: #828282;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  text-decoration: none;
 }
 .banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more span {
   display: flex;
   align-items: center;
   height: auto;
 }
-.banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more span a {
+.banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more span p {
   text-decoration: none;
-}
-.banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more span a p {
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  color: #ff2546;
+}
+.banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more span p a {
+  text-decoration: none;
   color: #ff2546;
 }
 .banner .banner2 .blog1:first-of-type {
@@ -330,22 +336,23 @@ $breakpoint arguments choices:
   padding-top: 47px;
 }
 .banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more h4 {
+  text-decoration: none;
+}
+.banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more h4 a {
   margin-top: 0;
   margin-bottom: 0;
   color: #828282;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  text-decoration: none;
 }
 .banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more span {
   display: flex;
   align-items: center;
   height: auto;
 }
-.banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more span a {
-  text-decoration: none;
-}
-.banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more span a p {
+.banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more span p {
   margin-top: 0;
   margin-bottom: 0;
   font-style: normal;
@@ -353,6 +360,11 @@ $breakpoint arguments choices:
   font-size: 18px;
   color: #ff2546;
   padding-top: 0;
+  text-decoration: none;
+}
+.banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more span p a {
+  text-decoration: none;
+  color: #ff2546;
 }
 .banner .banner2 .blog1:nth-of-type(3) {
   display: flex;
@@ -404,28 +416,34 @@ $breakpoint arguments choices:
   padding-top: 47px;
 }
 .banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more h4 {
+  text-decoration: none;
+}
+.banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more h4 a {
   margin-top: 0;
   margin-bottom: 0;
   color: #828282;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  text-decoration: none;
 }
 .banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more span {
   display: flex;
   align-items: center;
   height: auto;
 }
-.banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more span a {
+.banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more span p {
   text-decoration: none;
-}
-.banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more span a p {
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  color: #ff2546;
+}
+.banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more span p a {
+  text-decoration: none;
   color: #ff2546;
 }
 
