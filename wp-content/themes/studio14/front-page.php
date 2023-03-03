@@ -1,7 +1,23 @@
-<?php get_header();
-
+<?php
+/**
+ * 
+ * Template name: Home Page
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package second_theme
+ */
+ get_header();
 $post_id = get_the_ID();
+
 ?>
+
 <!--MAIN-->
 <main id="primary" class="site-main">
     <div class="banner">
@@ -40,7 +56,7 @@ $post_id = get_the_ID();
                             $result->the_post();
                             $post_id = get_the_ID();
                             $the_post = get_post($post_id);
-                            $post_content = strip_tags($the_post->$post_content);
+                            $post_content = strip_tags($the_post->post_content);
                             $count3 ++;?>
                             <!--BLOG1-->
                             <div class="blog1">
@@ -59,7 +75,7 @@ $post_id = get_the_ID();
                                         <span class="read-more">
                                             <h4>Business</h4>
                                             <span>
-                                                <h4>Read More</h4>
+                                               <a href="#"><p>Read More</p></a>
                                                 <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
                                             </span>
                                         </span>
@@ -68,78 +84,6 @@ $post_id = get_the_ID();
                             </div>
                         <?php } 
                     } ?>
-                <!--BLOG2-->
-                <!-- <div class="blog2">
-                    <span class="blog-image"><img src="<?php echo get_template_directory_uri() ?>/asset/image/Rectangle2.png" alt=""></span>
-                    <div class="content-wrapper">
-                        <span class="text-wrapper">
-                            <h3>Coindealer launches on NYSE</h3>
-                            <p>Very experienced software developers take <br> it upon themselves to oversees programme. </p>
-                        
-                            <span class="read-more">
-                                <h4>Business</h4>
-                                <span>
-                                    <h4>Read More</h4>
-                                    <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
-                                </span>
-                            </span>
-                        </span>
-                    </div>
-                </div> -->
-                <!--Blog3 -->
-                <!-- <div class="blog3">
-                        <span class="blog-image"><img src="<?php echo get_template_directory_uri() ?>/asset/image/blog3.png" alt=""></span>
-                        <div class="content-wrapper">
-                            <span class="text-wrapper">
-                                <h3>Fibre Optic Network in West Africa</h3>
-                                <p>Very experienced software developers take it upon themselves to oversees programme. </p>
-
-                                <span class="read-more">
-                                    <h4>Business</h4>
-                                    <span>
-                                        <p>Read More</p>
-                                        <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
-                                    </span>
-                                </span>
-                            </span>
-                        </div>
-                </div> -->
-                <!--BLOG4 -->
-                <!-- <div class="blog4">
-                        <span class="blog-image"><img src="<?php echo get_template_directory_uri() ?>/asset/image/blog4.png" alt=""></span>
-                        <div class="content-wrapper">
-                            <span class="text-wrapper">
-                                <h3>Coindealer launches on NYSE</h3>
-                                <p>Very experienced software developers take it upon themselves to oversees programme. </p>
-
-                                <span class="read-more">
-                                    <h4>Business</h4>
-                                    <span>
-                                        <p>Read More</p>
-                                        <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
-                                    </span>
-                                </span>
-                            </span>
-                        </div>
-                </div> -->
-                <!--BLOG5 -->
-                <!-- <div class="blog5">
-                        <span class="blog-image"><img src="<?php echo get_template_directory_uri() ?>/asset/image/blog5.png" alt=""></span>
-                        <div class="content-wrapper">
-                            <span class="text-wrapper">
-                                <h3>Coindealer launches on NYSE</h3>
-                                <p>Very experienced software developers take it upon themselves to oversees programme. </p>
-
-                                <span class="read-more">
-                                    <h4>Business</h4>
-                                    <span>
-                                        <p>Read More</p>
-                                        <img src="<?php echo get_template_directory_uri() ?>/asset/icons/arrow-right.png" alt="">
-                                    </span>
-                                </span>
-                            </span>
-                        </div>
-                </div> -->
                 
             </div>
 

@@ -112,7 +112,6 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		flex-direction: row;
-		gap: 42px;
 
 		// div:nth-of-type(1) {
 		// 	display: flex;
@@ -289,7 +288,8 @@
 			display: flex;
 			flex-direction: column;
 			gap: 0;
-			width: 375px;
+			width: 32%;
+			padding-top: 42px;
 
 			.blog-image {
 
@@ -302,7 +302,7 @@
 			.content-wrapper {
 
 				background-color: $secondary-color;
-				height: 242.99px;
+				height: 36%;
 
 				.text-wrapper {
 					padding-top: 37px;
@@ -310,6 +310,8 @@
 					padding-right: 21px;
 					padding-bottom: 33.99px;
 					height: auto;
+					display: flex;
+					flex-direction: column;
 
 					h3 {
 						margin-top: 0;
@@ -327,6 +329,7 @@
 						font-weight: 400;
 						font-size: 16px;
 						color: $primary-color;
+						padding-top: 26.3px;
 					}
 
 					.read-more {
@@ -335,7 +338,7 @@
 						height: auto;
 						width: 100%;
 						justify-content: space-between;
-						padding-top: 51px;
+						padding-top: 47px;
 
 						h4 {
 							margin-top: 0;
@@ -351,13 +354,19 @@
 							align-items: center;
 							height: auto;
 
-							p {
-								margin-top: 0;
-								margin-bottom: 0;
-								font-style: normal;
-								font-weight: 700;
-								font-size: 18px;
-								color: $tertiary-color;
+							a {
+
+								text-decoration: none;
+
+								p {
+									margin-top: 0;
+									padding-top: 0;
+									margin-bottom: 0;
+									font-style: normal;
+									font-weight: 700;
+									font-size: 18px;
+									color: $tertiary-color;
+								}
 							}
 						}
 					}
@@ -368,8 +377,7 @@
 			&:first-of-type {
 				display: flex;
 				flex-direction: column;
-				gap: 0;
-				width: 375px;
+				width: 66%;
 
 				.blog-image {
 
@@ -382,7 +390,7 @@
 				.content-wrapper {
 
 					background-color: $secondary-color;
-					height: 242.99px;
+					height: 37%;
 
 					.text-wrapper {
 						padding-top: 37px;
@@ -390,6 +398,8 @@
 						padding-right: 21px;
 						padding-bottom: 33.99px;
 						height: auto;
+						display: flex;
+						flex-direction: column;
 
 						h3 {
 							margin-top: 0;
@@ -407,6 +417,7 @@
 							font-weight: 400;
 							font-size: 16px;
 							color: $primary-color;
+							padding-top: 32px;
 						}
 
 						.read-more {
@@ -415,7 +426,7 @@
 							height: auto;
 							width: 100%;
 							justify-content: space-between;
-							padding-top: 51px;
+							padding-top: 47px;
 
 							h4 {
 								margin-top: 0;
@@ -431,13 +442,19 @@
 								align-items: center;
 								height: auto;
 
-								p {
-									margin-top: 0;
-									margin-bottom: 0;
-									font-style: normal;
-									font-weight: 700;
-									font-size: 18px;
-									color: $tertiary-color;
+								a {
+
+									text-decoration: none;
+
+									p {
+										margin-top: 0;
+										margin-bottom: 0;
+										font-style: normal;
+										font-weight: 700;
+										font-size: 18px;
+										color: $tertiary-color;
+										padding-top: 0;
+									}
 								}
 							}
 						}
@@ -447,6 +464,97 @@
 				}
 
 
+			}
+
+			&:nth-of-type(3) {
+				display: flex;
+				flex-direction: column;
+				gap: 0;
+				width: 32%;
+				padding-top: 42px;
+
+				.blog-image {
+
+					img {
+						height: 100%;
+						width: 100%;
+					}
+				}
+
+				.content-wrapper {
+
+					background-color: $secondary-color;
+					height: 36%;
+
+					.text-wrapper {
+						padding-top: 37px;
+						padding-left: 21px;
+						padding-right: 21px;
+						padding-bottom: 33.99px;
+						height: auto;
+						display: flex;
+						flex-direction: column;
+
+						h3 {
+							margin-top: 0;
+							margin-bottom: 0;
+							font-style: normal;
+							font-weight: 700;
+							letter-spacing: -0.02em;
+							color: $primary-color;
+						}
+
+						p {
+							margin-top: 0;
+							margin-bottom: 0;
+							font-style: normal;
+							font-weight: 400;
+							font-size: 16px;
+							color: $primary-color;
+							padding-top: 0;
+						}
+
+						.read-more {
+							display: flex;
+							align-items: center;
+							height: auto;
+							width: 100%;
+							justify-content: space-between;
+							padding-top: 47px;
+
+							h4 {
+								margin-top: 0;
+								margin-bottom: 0;
+								color: $footer-text-color;
+								font-style: normal;
+								font-weight: 700;
+								font-size: 18px;
+							}
+
+							span {
+								display: flex;
+								align-items: center;
+								height: auto;
+
+								a {
+
+									text-decoration: none;
+
+									p {
+										margin-top: 0;
+										padding-top: 0;
+										margin-bottom: 0;
+										font-style: normal;
+										font-weight: 700;
+										font-size: 18px;
+										color: $tertiary-color;
+									}
+								}
+							}
+						}
+					}
+
+				}
 			}
 		}
 	}
