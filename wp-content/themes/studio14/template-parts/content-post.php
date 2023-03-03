@@ -3,8 +3,8 @@ get_header();
 
 $post_id = get_the_ID();
 ?>
-    <section class="main-blog-section" style="background-image: url{<?php echo
-    get_the_post_thumbnail_url(); ?>}">
+    <section class="main-blog-section" style="background-image: url(<?php echo
+    get_the_post_thumbnail_url(); ?>)">
         <div class="site-wrapper">
             <div class="blog-title-wrapper">
                 <div class="main-blog-title">
@@ -21,7 +21,7 @@ $post_id = get_the_ID();
             <div class="site-wrapper">
                 <div class="blog-content-top">
                     <span>
-                        <img src="" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/icons/Vector.png"" alt="">
                         <form action="">
 
                             <input type="button" value="Back" onclick="history.back()">
