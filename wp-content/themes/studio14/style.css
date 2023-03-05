@@ -613,29 +613,31 @@ $breakpoint arguments choices:
   gap: 10px;
 }
 
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo {
   background-color: #fff;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main section#post-79 {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main section#post-79 {
   width: 100%;
-  padding-top: 142px;
+  padding-top: 116px;
+  padding-bottom: 87px;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main section#post-79 .contact-title-wrapper span {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main section#post-79 .contact-title-wrapper span {
   width: 40%;
   height: 22%;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main section#post-79 .contact-title-wrapper span h2 {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main section#post-79 .contact-title-wrapper span h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   letter-spacing: -0.02em;
   color: #000;
   margin-bottom: 0;
+  margin-top: 0;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main section#post-79 .contact-title-wrapper span p {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main section#post-79 .contact-title-wrapper span p {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -644,30 +646,39 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   margin-top: 0;
   margin-bottom: 0;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section {
   width: 100%;
-  padding-top: 87px;
+  margin-top: 96px;
+  margin-bottom: 96px;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper {
+  padding: 0 0;
+  margin: auto;
+  width: 100%;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-text {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-text {
   background-color: #ffcf25;
-  left: -142px;
-  position: relative;
+  width: 899px;
+  height: 671px;
+  position: absolute;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-text span {
-  width: 60%;
-  height: 35%;
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-text span {
+  width: 492px;
+  height: 349px;
   display: flex;
   flex-direction: row;
   padding-left: 117px;
   padding-top: 140px;
-  padding-bottom: 182px;
+  position: relative;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-text span h1 {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-text span h1 {
   font-size: 96px;
   margin-top: 0;
   margin-bottom: 0;
@@ -676,35 +687,46 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   align-items: center;
   letter-spacing: -0.02em;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-form {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form {
   display: flex;
   flex-direction: column;
-  width: 46%;
-  height: 38%;
+  width: 554px;
   position: relative;
+  margin-left: 50%;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-form .form-wrapper {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper {
   display: flex;
   flex-direction: column;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-form .form-wrapper form {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-form .form-wrapper form input {
+  background: transparent;
   border: none;
-  border-bottom: 1px solid;
-  padding-top: 77px;
-  color: #000;
+  outline: none;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-form .form-wrapper form input:focus,
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-form .form-wrapper form input:active {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input {
+  border: none;
+  border-bottom: 1px solid #333;
+  padding-top: 43px;
+  color: #000;
+  background: transparent;
+  outline: none;
+  font-size: 18px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-bottom: 29px;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input:focus,
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input:active {
   border-color: none;
   box-shadow: none;
   border: none;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.logged-in.admin-bar.custom-background.wp-custom-logo.customize-support .site-main .contact-form-section .form-wrapper .contact-form .form-wrapper form button {
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form button {
   color: #fff;
   background-color: #000;
   width: 179px;
@@ -716,6 +738,59 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   margin-top: 54px;
   /* identical to box height */
   text-align: center;
+  cursor: pointer;
+  border-color: transparent;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section {
+  padding-bottom: 79px;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper {
+  padding: 0 0;
+  margin: auto;
+  width: 100%;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first {
+  background-color: #ff2546;
+  width: 485px;
+  height: 499px;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .wrap {
+  color: #fff;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .wrap h2 {
+  width: 223px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 116px;
+  padding-right: 78px;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 103px;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .wrap span {
+  width: 447px;
+  height: 178px;
+  display: flex;
+  flex-direction: column;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .wrap span p {
+  margin-bottom: 0;
+  padding-left: 116px;
+  padding-right: 78px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .mapouter {
+  width: 955px;
+  height: 610px;
 }
 
 .footer-section {

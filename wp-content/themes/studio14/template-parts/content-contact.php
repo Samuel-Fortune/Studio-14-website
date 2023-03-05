@@ -6,8 +6,8 @@ $page_id = get_the_ID();
         <div class="site-wrapper">
             <div class="contact-title-wrapper">
                 <span>
-                    <h2>Want to know more?</h2>
-                    <p>Want to find out more about Studio 14 and how we can help, then get in touch using the contact from or the details below and we will get back to you as soon as possible.</p>
+                    <h2><?php echo the_field('contact_title', $page_id); ?></h2>
+                    <p><?php echo the_field('contact_paragraph', $page_id); ?></p>
                 </span>
 
             </div>
@@ -20,7 +20,7 @@ $page_id = get_the_ID();
             <div class="form-wrapper">
                 <div class="contact-text">
                     <span>
-                        <h1>Lets <br> make something happen.</h1>
+                        <h1><?php echo the_field('form_title', $page_id); ?> <br> <?php echo the_field('form_title_2', $page_id); ?></h1>
                     </span>
                 </div>
                 <div class="contact-form">
@@ -42,27 +42,30 @@ $page_id = get_the_ID();
             </div>
 
         </div>
-        
+    
     </section>
 
     <section class="address-section">
         <div class="site-wrapper">
             <div class="address-wrapper">
-                <div>
-                    <span>
-                        <h2>Office Address</h2>
-                        <p>Studio 14, Unit 202B, The Big Peg 120 Vyse Street, Hockley, Birmingham B18 6ND, United Kingdom</p>
-                        <p>Email: daniel@studio14online.co.uk Tel: +44 (0) 121 439 3031</p>
+                <div class="first">
+                    <span class="wrap">
+                        <h2><?php echo the_field('contact_address_header', $page_id); ?></h2>
+                        <span>
+                            <p><?php echo the_field('contact_address', $page_id); ?> <br> <?php echo the_field('contact_address_2', $page_id); ?></p>
+                            
+                            <p><?php echo the_field('email', $page_id); ?></p>
+                        </span>
                     </span>
                 </div>
                 <div class="mapouter">
                     <div class="gmap_canvas map">
                     
                     <iframe
-                        width="600"
-                        height="213"
+                        width="955"
+                        height="610"
                         id="gmap_canvas"
-                        src="<?php echo the_field('address_map', $post_id); ?>"
+                        src="<?php echo the_field('address_map', $page_id); ?>"
                         frameborder="0"
                         scrolling="no"
                         marginheight="0"
@@ -72,7 +75,7 @@ $page_id = get_the_ID();
                     .mapouter {
                         position: relative;
                         text-align: right;
-                        height: 213px;
+                        height: 100%;
                         width: 100%;
                     }</style
                     ><a href="https://www.embedgooglemap.net"
@@ -81,7 +84,7 @@ $page_id = get_the_ID();
                     .gmap_canvas {
                         overflow: hidden;
                         background: none !important;
-                        height: 208px;
+                        height: 100%;
                         width: 100%;
                     }
                     </style>
