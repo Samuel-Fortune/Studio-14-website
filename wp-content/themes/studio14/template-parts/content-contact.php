@@ -26,14 +26,7 @@ $page_id = get_the_ID();
                 <div class="contact-form">
                     <span class="form-wrapper">
                         <form action="">
-                            <input type="name" name="full-name" id="" placeholder="Full Name">
-                            <input type="email" name="email" id="" placeholder="Email">
-                            <input type="number" name="number" id="" placeholder="Phone No.">
-                            <input type="text" name="text" id="" placeholder="Message">
-
-                            
-                            <button>Submit</button>
-                            
+                            <?php echo the_field('contact_form', $page_id); ?>
                         </form>
     
                     </span>

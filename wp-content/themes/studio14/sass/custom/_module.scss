@@ -850,8 +850,8 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 		.contact-form-section {
 			width: 100%;
-			margin-top: 96px;
-			margin-bottom: 96px;
+			margin-top: 60px;
+			margin-bottom: 60px;
 
 			.site-wrapper {
 				padding: 0 0;
@@ -918,6 +918,22 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 								// gap: 77px;
 
 
+								textarea.wpcf7-form-control.wpcf7-textarea {
+									border: none;
+									border-bottom: 1px solid #333;
+									padding-top: 43px;
+									color: #000;
+									background: transparent;
+									outline: none;
+									font-size: 18px;
+									display: flex;
+									align-items: center;
+									padding-left: 15px;
+									padding-bottom: 29px;
+									width: 554px;
+									height: 33px;
+								}
+
 								input {
 									border: none;
 									border-bottom: 1px solid #333;
@@ -931,6 +947,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 									align-items: center;
 									padding-left: 15px;
 									padding-bottom: 29px;
+									width: 554px;
 								}
 
 								input:focus,
@@ -940,23 +957,26 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 									border: none;
 								}
 
-								button {
-									color: $secondary-color;
-									background-color: $primary-color;
+								p:nth-of-type(5) {
+									background: #000;
 									width: 179px;
 									height: 48px;
+									color: #fff;
 									display: flex;
 									align-items: center;
-									font-size: 18px;
 									justify-content: center;
 									margin-top: 54px;
 
-									/* identical to box height */
-									text-align: center;
-									cursor: pointer;
-									border-color: transparent;
+									input.wpcf7-form-control.has-spinner.wpcf7-submit {
+										color: #fff;
+										font-size: 18px;
+										border: none;
+										border-bottom: none;
+										background: transparent;
 
+									}
 								}
+
 
 							}
 						}

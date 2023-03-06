@@ -648,8 +648,8 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 }
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section {
   width: 100%;
-  margin-top: 96px;
-  margin-bottom: 96px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper {
   padding: 0 0;
@@ -706,6 +706,21 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   border: none;
   outline: none;
 }
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form textarea.wpcf7-form-control.wpcf7-textarea {
+  border: none;
+  border-bottom: 1px solid #333;
+  padding-top: 43px;
+  color: #000;
+  background: transparent;
+  outline: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-bottom: 29px;
+  width: 554px;
+  height: 33px;
+}
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input {
   border: none;
   border-bottom: 1px solid #333;
@@ -719,6 +734,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   align-items: center;
   padding-left: 15px;
   padding-bottom: 29px;
+  width: 554px;
 }
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input:focus,
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input:active {
@@ -726,20 +742,22 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   box-shadow: none;
   border: none;
 }
-body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form button {
-  color: #fff;
-  background-color: #000;
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form p:nth-of-type(5) {
+  background: #000;
   width: 179px;
   height: 48px;
+  color: #fff;
   display: flex;
   align-items: center;
-  font-size: 18px;
   justify-content: center;
   margin-top: 54px;
-  /* identical to box height */
-  text-align: center;
-  cursor: pointer;
-  border-color: transparent;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form p:nth-of-type(5) input.wpcf7-form-control.has-spinner.wpcf7-submit {
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-bottom: none;
+  background: transparent;
 }
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section {
   padding-bottom: 79px;
