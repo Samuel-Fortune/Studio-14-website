@@ -23,7 +23,9 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	background-color: $main-bg-color;
-	font-family: Simonetta;
+	font-family: "Brown";
+	width: 100%;
+	max-width: fit-content;
 }
 
 h1 {
@@ -72,7 +74,11 @@ li {
 }
 
 .menu-toggle {
-	display: none;
+	display: flex;
+
+	@include respond(sm) {
+		display: none;
+	}
 }
 
 

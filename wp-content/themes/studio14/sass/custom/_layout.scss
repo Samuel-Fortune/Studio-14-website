@@ -1,9 +1,16 @@
 
 .site-wrapper {
+	width: 100%;
 	padding: 0 0;
 	margin: auto;
-	width: 81%;
-	padding-left: 139px;
-	padding-right: 138px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	@include respond(sm) {
+
+		padding: 0 0;
+		margin: auto;
+		width: 81%;
+	}
 }
 

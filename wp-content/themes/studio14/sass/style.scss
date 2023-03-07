@@ -40,8 +40,91 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Import Custom Styles
 --------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@font-face {
+	font-family: "Brown";
+
+	src:
+		url("/fonts/Brown-Light.woff2") format("woff2"),
+		url("/fonts/Brown-Light.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brown";
+
+	src:
+		url("/fonts/Brown-Regular.woff2") format("woff2"),
+		url("/fonts/Brown-Regular.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brown";
+
+	src:
+		url("/fonts/Brown-Light.woff2") format("woff2"),
+		url("/fonts/Brown-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brown";
+
+	src:
+		url("/fonts/Brown-Thin.woff2") format("woff2"),
+		url("/fonts/Brown-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brown";
+	src:
+		url("/fonts/Brown-Bold.woff2") format("woff2"),
+		url("/fonts/Brown-Bold.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brown";
+	src:
+		url("/fonts/Brown-Regular.woff2") format("woff2"),
+		url("/fonts/Brown-Regular.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brown";
+	src:
+		url("/fonts/Brown-Thin.woff2") format("woff2"),
+		url("/fonts/Brown-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brown";
+	src:
+		url("/fonts/Brown-Bold.woff2") format("woff2"),
+		url("/fonts/Brown-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
 @import "./custom/base";
 @import "./custom/layout";
 @import "./custom/module";

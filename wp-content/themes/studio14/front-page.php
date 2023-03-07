@@ -17,7 +17,15 @@
 $post_id = get_the_ID();
 
 ?>
-
+<!-- Mobile Nav menu
+<nav class="menu">
+    <ul class="list">
+        <li>About Us</li>
+        <li>Blog</li>
+        <li>Our Work</li>
+        <li>Contact</li>
+    </ul>
+</nav> -->
 <!--MAIN-->
 <main id="primary" class="site-main">
     <div class="banner">
