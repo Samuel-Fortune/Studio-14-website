@@ -25,7 +25,17 @@ body {
 	background-color: $main-bg-color;
 	font-family: "Brown";
 	width: 100%;
-	max-width: fit-content;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	outline: none;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -74,11 +84,7 @@ li {
 }
 
 .menu-toggle {
-	display: flex;
-
-	@include respond(sm) {
-		display: none;
-	}
+	display: none;
 }
 
 
