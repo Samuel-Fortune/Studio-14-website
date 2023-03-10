@@ -59,13 +59,13 @@ $post_id = get_the_ID();
                     if($result->have_posts()){
                         $count3 = 0;
                         while ( $result->have_posts() ) {
-                            $result->the_post();
-                            $post_id = get_the_ID();
-                            $the_post = get_post($post_id);
-                            $post_content = strip_tags($the_post->post_content);
-                            $count3 ++;?>
+                        $result->the_post();
+                        $post_id = get_the_ID();
+                        $the_post = get_post($post_id);
+                        $post_content = strip_tags($the_post->post_content);
+                        $count3 ++;?>
                             <!--BLOG1-->
-                            <div class="blog1">
+                        <div class="blog1">
                                 <span class="blog-image">
                                     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                                 </span>
@@ -87,12 +87,14 @@ $post_id = get_the_ID();
                                         </span>
                                     </span>
                                 </div>
-                            </div>
-                        <?php } 
-                    } ?>
+                        </div>
+                    <?php } 
+                } ?>
                 
+                <span class="lighting2">
+                    <img src="<?php echo get_template_directory_uri() ?>/asset/image/lighting2.png" alt="">
+                </span>
             </div>
-
         </div>
     </div>
     

@@ -670,6 +670,9 @@ $breakpoint arguments choices:
   text-decoration: none;
   color: #ff2546;
 }
+.banner .banner2 .lighting2 {
+  display: none;
+}
 @media only screen and (min-width: 40em) {
   .banner .banner2 {
     padding-top: 76px;
@@ -916,6 +919,12 @@ $breakpoint arguments choices:
   .banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more span p a {
     text-decoration: none;
     color: #ff2546;
+  }
+  .banner .banner2 .lighting2 {
+    position: absolute;
+    top: 131rem;
+    left: 178px;
+    display: flex;
   }
 }
 
@@ -1426,6 +1435,12 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   border: none;
   border-bottom: none;
   background: transparent;
+  padding-left: 0;
+  padding-top: 30px;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .lighting {
+  position: absolute;
+  right: 0;
 }
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section {
   padding-bottom: 0;
@@ -1474,6 +1489,9 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
+}
+body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .lighting2 {
+  display: none;
 }
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .mapouter {
   width: 100%;
@@ -1565,7 +1583,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
     flex-direction: column;
     width: 554px;
     position: relative;
-    margin-left: 50%;
+    margin-left: 48%;
     margin-top: 0;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper {
@@ -1592,7 +1610,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
     align-items: center;
     padding-left: 15px;
     padding-bottom: 29px;
-    width: 554px;
+    width: 539px;
     height: 33px;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input {
@@ -1608,7 +1626,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
     align-items: center;
     padding-left: 15px;
     padding-bottom: 29px;
-    width: 554px;
+    width: 538px;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input:focus,
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .contact-form .form-wrapper form input:active {
@@ -1632,6 +1650,17 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
     border: none;
     border-bottom: none;
     background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 30px;
+    cursor: pointer;
+  }
+  body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .contact-form-section .site-wrapper .form-wrapper .lighting {
+    position: relative;
+    bottom: 330px;
+    right: 53px;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section {
     padding-bottom: 79px;
@@ -1679,6 +1708,12 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
+  }
+  body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .lighting2 {
+    position: absolute;
+    top: 106rem;
+    left: 180px;
+    display: flex;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .mapouter {
     width: 955px;

@@ -31,6 +31,9 @@ $page_id = get_the_ID();
     
                     </span>
                 </div>
+                <span class="lighting">
+                    <img src="<?php echo get_template_directory_uri() ?>/asset/image/lighting.png" alt="">
+                </span>
                 
             </div>
 
@@ -49,6 +52,10 @@ $page_id = get_the_ID();
                             
                             <p><?php echo the_field('email', $page_id); ?></p>
                         </span>
+                    </span>
+
+                    <span class="lighting2">
+                        <img src="<?php echo get_template_directory_uri() ?>/asset/image/lighting2.png" alt="">
                     </span>
                 </div>
                 <div class="mapouter">

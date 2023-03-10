@@ -504,6 +504,10 @@
 			}
 		}
 
+		.lighting2 {
+			display: none;
+		}
+
 		@include respond(sm) {
 
 			padding-top: 76px;
@@ -811,8 +815,16 @@
 					}
 				}
 			}
+
+			.lighting2 {
+				position: absolute;
+				top: 131rem;
+				left: 178px;
+				display: flex;
+			}
 		}
 	}
+
 
 }
 
@@ -1410,6 +1422,8 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 										border: none;
 										border-bottom: none;
 										background: transparent;
+										padding-left: 0;
+										padding-top: 30px;
 
 									}
 								}
@@ -1417,6 +1431,11 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 							}
 						}
+					}
+
+					.lighting {
+						position: absolute;
+						right: 0;
 					}
 				}
 			}
@@ -1473,6 +1492,10 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 									font-style: normal;
 								}
 							}
+						}
+
+						.lighting2 {
+							display: none;
 						}
 					}
 
@@ -1588,7 +1611,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 							flex-direction: column;
 							width: 554px;
 							position: relative;
-							margin-left: 50%;
+							margin-left: 48%;
 							margin-top: 0;
 
 
@@ -1619,7 +1642,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 										align-items: center;
 										padding-left: 15px;
 										padding-bottom: 29px;
-										width: 554px;
+										width: 539px;
 										height: 33px;
 									}
 
@@ -1636,7 +1659,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 										align-items: center;
 										padding-left: 15px;
 										padding-bottom: 29px;
-										width: 554px;
+										width: 538px;
 									}
 
 									input:focus,
@@ -1662,6 +1685,12 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 											border: none;
 											border-bottom: none;
 											background: transparent;
+											display: flex;
+											justify-content: center;
+											align-items: center;
+											padding-left: 0;
+											padding-top: 30px;
+											cursor: pointer;
 
 										}
 									}
@@ -1669,6 +1698,12 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 								}
 							}
+						}
+
+						.lighting {
+							position: relative;
+							bottom: 330px;
+							right: 53px;
 						}
 					}
 				}
@@ -1724,6 +1759,13 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 										font-style: normal;
 									}
 								}
+							}
+
+							.lighting2 {
+								position: absolute;
+								top: 106rem;
+								left: 180px;
+								display: flex;
 							}
 						}
 
