@@ -61,33 +61,33 @@ $page_id = get_the_ID();
                 <div class="mapouter">
                     <div class="gmap_canvas map">
                     
-                    <iframe
-                        width="955"
-                        height="610"
-                        id="gmap_canvas"
-                        src="<?php echo the_field('address_map', $page_id); ?>"
-                        frameborder="0"
-                        scrolling="no"
-                        marginheight="0"
-                        marginwidth="0"
-                    ></iframe
-                    ><a href="https://123movies-to.org"></a><br ><style>
-                    .mapouter {
-                        position: relative;
-                        text-align: right;
-                        height: 100%;
-                        width: 100%;
-                    }</style
-                    ><a href="https://www.embedgooglemap.net"
-                    >google maps for my website</a
-                    ><style>
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none !important;
-                        height: 100%;
-                        width: 100%;
-                    }
-                    </style>
+                        <iframe
+                            width="955"
+                            height="610"
+                            id="gmap_canvas"
+                            src="<?php echo the_field('address_map', $page_id); ?>"
+                            frameborder="0"
+                            scrolling="no"
+                            marginheight="0"
+                            marginwidth="0"
+                        ></iframe
+                        ><a href="https://123movies-to.org"></a><br ><style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 100%;
+                            width: 100%;
+                        }</style
+                        ><a href="https://www.embedgooglemap.net"
+                        >google maps for my website</a
+                        ><style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 100%;
+                            width: 100%;
+                        }
+                        </style>
                     </div>
                 </div>
 
