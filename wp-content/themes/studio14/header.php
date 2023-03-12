@@ -10,6 +10,7 @@
  */
 
 ?>
+<?php the_content(); ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>

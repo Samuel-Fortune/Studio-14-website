@@ -1,3 +1,4 @@
+<?php the_content(); ?>
 <?php
 
 $page_id = get_the_ID();

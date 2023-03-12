@@ -10,6 +10,7 @@
  */
 
 ?>
+<?php the_content(); ?>
 
 	<!--FOOTER SECTION-->
 	<footer class="site-footer footer-section" id="footer-section">

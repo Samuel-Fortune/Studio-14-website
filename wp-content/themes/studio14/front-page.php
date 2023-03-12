@@ -17,6 +17,7 @@
 $post_id = get_the_ID();
 
 ?>
+<?php the_content(); ?>
 <!-- Mobile Nav menu
 <nav class="menu">
     <ul class="list">
