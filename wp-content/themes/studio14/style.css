@@ -236,6 +236,7 @@ $breakpoint arguments choices:
   border: none;
   overflow: hidden;
   background: none;
+  flex-direction: column;
   /*
   @if $breakpoint ==xl {
 
@@ -274,6 +275,28 @@ $breakpoint arguments choices:
   list-style: none;
 }
 .nav nav .main-navigation .menu-toggle .mobile-list .mobile-menu .menu-item a {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Simonetta;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+}
+.nav nav .main-navigation .menu-toggle .mobile-list-menu {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.nav nav .main-navigation .menu-toggle .mobile-list-menu .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav nav .main-navigation .menu-toggle .mobile-list-menu .mobile-menu .menu-item {
+  list-style: none;
+}
+.nav nav .main-navigation .menu-toggle .mobile-list-menu .mobile-menu .menu-item a {
   list-style: none;
   text-decoration: none;
   font-style: normal;
@@ -735,7 +758,6 @@ $breakpoint arguments choices:
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     flex-direction: row;
   }
   .banner .banner2 .blog1 {
@@ -743,7 +765,6 @@ $breakpoint arguments choices:
     flex-direction: column;
     gap: 0;
     width: 32%;
-    padding-top: 42px;
   }
   .banner .banner2 .blog1 .blog-image img {
     height: 100%;
@@ -821,7 +842,7 @@ $breakpoint arguments choices:
   .banner .banner2 .blog1:first-of-type {
     display: flex;
     flex-direction: column;
-    width: 66%;
+    width: 65.8%;
   }
   .banner .banner2 .blog1:first-of-type .blog-image img {
     height: 100%;
@@ -901,7 +922,7 @@ $breakpoint arguments choices:
     flex-direction: column;
     gap: 0;
     width: 32%;
-    padding-top: 42px;
+    padding-top: 0;
   }
   .banner .banner2 .blog1:nth-of-type(3) .blog-image img {
     height: 100%;
@@ -978,7 +999,7 @@ $breakpoint arguments choices:
   }
   .banner .banner2 .lighting2 {
     position: absolute;
-    top: 131rem;
+    top: 123rem;
     left: 178px;
     display: flex;
   }

@@ -16,6 +16,7 @@
 				border: none;
 				overflow: hidden;
 				background: none;
+				flex-direction: column;
 
 				.handburger {
 					font-size: 40px;
@@ -51,7 +52,8 @@
 
 				.mobile-list-menu {
 					width: 100%;
-					display: none;
+					display: flex;
+					gap: 20px;
 
 					.mobile-menu {
 						display: flex;
@@ -584,7 +586,6 @@
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-between;
 			flex-direction: row;
 
 			.blog1 {
@@ -593,7 +594,6 @@
 				flex-direction: column;
 				gap: 0;
 				width: 32%;
-				padding-top: 42px;
 
 				.blog-image {
 
@@ -689,7 +689,7 @@
 				&:first-of-type {
 					display: flex;
 					flex-direction: column;
-					width: 66%;
+					width: 65.8%;
 
 					.blog-image {
 
@@ -791,7 +791,7 @@
 					flex-direction: column;
 					gap: 0;
 					width: 32%;
-					padding-top: 42px;
+					padding-top: 0;
 
 					.blog-image {
 
@@ -888,7 +888,7 @@
 
 			.lighting2 {
 				position: absolute;
-				top: 131rem;
+				top: 123rem;
 				left: 178px;
 				display: flex;
 			}
