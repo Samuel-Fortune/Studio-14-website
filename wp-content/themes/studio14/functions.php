@@ -53,6 +53,14 @@ function studio14_setup() {
 		)
 	);
 
+
+	register_nav_menus(
+		  array(
+			'mobile-menu' => esc_html__( 'Mobile Menu', 'studio14' ),
+		)
+	);
+	
+
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.

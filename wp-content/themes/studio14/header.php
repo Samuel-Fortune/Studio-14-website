@@ -10,13 +10,13 @@
  */
 
 ?>
-<?php the_content(); ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 	<?php wp_head(); ?>
 </head>
@@ -35,12 +35,26 @@
 						<?php the_custom_logo();?>
 					</div><!-- .site-branding -->
 					<nav id="site-navigation" class="main-navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-							<?php esc_html_e( 'Primary Menu', 'studio14' ); ?>
-							<svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+						<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">
+							<?php esc_html_e( '', 'studio14' ); ?>
+							<svg class="handburger" id="click" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
   								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
 							</svg>
-					
+
+							<?php
+								wp_nav_menu(
+									array(
+										'theme_location' 	=> 'mobile-menu',
+										'menu_class' 		=> 'mobile-menu',
+										'container' 		=> 'div',
+										'container_class' => 'mobile-list', 
+										'container_id' => 'mobile-list-menu',
+										'menu_id'        	=> 'mobile-menu',
+										'items_wrap' 		=> '<ul class="mobile-menu">%3$s</ul>',
+										
+									)
+								);
+							?>
 						</button>
 						<?php
 						wp_nav_menu(

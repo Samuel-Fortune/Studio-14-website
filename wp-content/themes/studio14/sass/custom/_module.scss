@@ -9,7 +9,77 @@
 		align-items: center;
 
 		.main-navigation {
-			display: none;
+			padding-top: 0;
+
+			.menu-toggle {
+				display: flex;
+				border: none;
+				overflow: hidden;
+				background: none;
+
+				.handburger {
+					font-size: 40px;
+					font-weight: 800;
+					height: 50px;
+					width: 100%;
+				}
+
+				.mobile-list {
+					width: 100%;
+					display: none;
+
+					.mobile-menu {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+
+						.menu-item {
+							list-style: none;
+
+							a {
+								list-style: none;
+								text-decoration: none;
+								font-style: normal;
+								font-family: Simonetta;
+								font-weight: 700;
+								font-size: $Large-sizing;
+								color: $header-color;
+							}
+						}
+					}
+				}
+
+				.mobile-list-menu {
+					width: 100%;
+					display: none;
+
+					.mobile-menu {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+
+						.menu-item {
+							list-style: none;
+
+							a {
+								list-style: none;
+								text-decoration: none;
+								font-style: normal;
+								font-family: Simonetta;
+								font-weight: 700;
+								font-size: $Large-sizing;
+								color: $header-color;
+							}
+						}
+					}
+				}
+
+
+				@include respond(sm) {
+					display: none;
+				}
+			}
+
 
 			.nav-buttom-list {
 				width: 100%;
@@ -1702,7 +1772,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 						.lighting {
 							position: relative;
-							bottom: 330px;
+							bottom: 370px;
 							right: 53px;
 						}
 					}
@@ -1763,7 +1833,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 							.lighting2 {
 								position: absolute;
-								top: 106rem;
+								top: 108rem;
 								left: 180px;
 								display: flex;
 							}
@@ -2018,6 +2088,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 						.header {
 							width: 64%;
+							padding-top: 0;
 
 							h3 {
 								width: 100%;
@@ -2130,6 +2201,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 							flex-direction: column;
 							justify-content: flex-start;
 							align-items: flex-start;
+							margin-top: 0;
 
 							h3:nth-of-type(1) {
 								margin-top: 0;

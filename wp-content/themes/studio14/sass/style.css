@@ -282,6 +282,27 @@ $breakpoint arguments choices:
   font-size: 18px;
   color: #333;
 }
+.nav nav .main-navigation .menu-toggle .mobile-list-menu {
+  width: 100%;
+  display: none;
+}
+.nav nav .main-navigation .menu-toggle .mobile-list-menu .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav nav .main-navigation .menu-toggle .mobile-list-menu .mobile-menu .menu-item {
+  list-style: none;
+}
+.nav nav .main-navigation .menu-toggle .mobile-list-menu .mobile-menu .menu-item a {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Simonetta;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+}
 @media only screen and (min-width: 40em) {
   .nav nav .main-navigation .menu-toggle {
     display: none;
