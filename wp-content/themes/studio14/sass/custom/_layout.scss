@@ -11,3 +11,40 @@
 		width: 81%;
 	}
 }
+
+.togglemenu {
+	transition: all .5s ease-in;
+	animation: rotate_first .5s ease-in;
+	transform: rotate(45deg);
+}
+
+.togglemenu_rotate {
+	transition: all .5s ease-in;
+	animation: rotate_second .5s ease-in;
+	transform: rotate(-45deg);
+}
+
+@keyframes rotate_first {
+
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(45deg);
+	}
+
+}
+
+@keyframes rotate_second {
+
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(-45deg);
+	}
+
+}
+

@@ -37,9 +37,14 @@
 					<nav id="site-navigation" class="main-navigation">
 						<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">
 							<?php esc_html_e( '', 'studio14' ); ?>
-							<svg class="handburger" id="click" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<!-- <svg class="handburger" id="click" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
   								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-							</svg>
+							</svg> -->
+							<div class="handburger-container" id="click">
+								<span class="handburger first"></span>
+								<span class="handburger second"></span>
+								<span class="handburger third"></span>
+							</div>
 
 							<?php
 								wp_nav_menu(
