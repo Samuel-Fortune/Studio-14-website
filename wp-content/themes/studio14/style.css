@@ -266,7 +266,7 @@ $breakpoint arguments choices:
   color: #000;
 }
 .nav nav .main-navigation .menu-toggle .active {
-  color: white;
+  color: #fff;
   z-index: 3;
   position: fixed;
   right: -164px;
@@ -296,7 +296,7 @@ $breakpoint arguments choices:
   display: flex;
   gap: 20px;
   position: fixed;
-  background-color: red;
+  background-color: #ff2546;
   height: 100%;
   width: 100%;
   left: -2px;
@@ -476,6 +476,7 @@ $breakpoint arguments choices:
     font-size: 48px;
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 60px;
   }
   .banner .banner1 .filter-posts {
     display: flex;
@@ -568,10 +569,11 @@ $breakpoint arguments choices:
   margin-top: 0;
   margin-bottom: 0;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   color: #000;
   padding-top: 26.3px;
+  line-height: 25px;
 }
 .banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more {
   display: flex;
@@ -579,7 +581,7 @@ $breakpoint arguments choices:
   height: auto;
   width: 100%;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more h4 {
   text-decoration: none;
@@ -645,10 +647,10 @@ $breakpoint arguments choices:
   margin-top: 0;
   margin-bottom: 0;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   color: #000;
-  padding-top: 32px;
+  line-height: 25px;
 }
 .banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more {
   display: flex;
@@ -656,7 +658,7 @@ $breakpoint arguments choices:
   height: auto;
   width: 100%;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more h4 {
   text-decoration: none;
@@ -724,10 +726,11 @@ $breakpoint arguments choices:
   margin-top: 0;
   margin-bottom: 0;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   color: #000;
-  padding-top: 0;
+  padding-top: 26.3px;
+  line-height: 25px;
 }
 .banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more {
   display: flex;
@@ -735,7 +738,7 @@ $breakpoint arguments choices:
   height: auto;
   width: 100%;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more h4 {
   text-decoration: none;
@@ -818,6 +821,7 @@ $breakpoint arguments choices:
     font-size: 16px;
     color: #000;
     padding-top: 26.3px;
+    line-height: 25px;
   }
   .banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more {
     display: flex;
@@ -825,7 +829,7 @@ $breakpoint arguments choices:
     height: auto;
     width: 100%;
     justify-content: space-between;
-    padding-top: 47px;
+    padding-top: 51px;
   }
   .banner .banner2 .blog1 .content-wrapper .text-wrapper .read-more h4 {
     text-decoration: none;
@@ -875,7 +879,7 @@ $breakpoint arguments choices:
     padding-top: 37px;
     padding-left: 21px;
     padding-right: 21px;
-    padding-bottom: 33.99px;
+    padding-bottom: 25px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -896,6 +900,7 @@ $breakpoint arguments choices:
     font-size: 16px;
     color: #000;
     padding-top: 32px;
+    line-height: 25px;
   }
   .banner .banner2 .blog1:first-of-type .content-wrapper .text-wrapper .read-more {
     display: flex;
@@ -976,6 +981,7 @@ $breakpoint arguments choices:
     font-size: 16px;
     color: #000;
     padding-top: 0;
+    line-height: 25px;
   }
   .banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more {
     display: flex;
@@ -983,7 +989,7 @@ $breakpoint arguments choices:
     height: auto;
     width: 100%;
     justify-content: space-between;
-    padding-top: 47px;
+    padding-top: 51px;
   }
   .banner .banner2 .blog1:nth-of-type(3) .content-wrapper .text-wrapper .read-more h4 {
     text-decoration: none;
@@ -1018,7 +1024,7 @@ $breakpoint arguments choices:
   }
   .banner .banner2 .lighting2 {
     position: absolute;
-    top: 125rem;
+    top: 128rem;
     left: 178px;
     display: flex;
   }
@@ -1050,13 +1056,111 @@ $breakpoint arguments choices:
   z-index: 2;
   width: 100%;
 }
+.single-post .site-header #logo {
+  color: #fff;
+}
 .single-post .site-header .main-navigation {
-  display: flex;
-  width: 385px;
   padding-top: 0;
+}
+.single-post .site-header .main-navigation .menu-toggle {
+  display: flex;
+  border: none;
+  overflow: hidden;
+  background: none;
+  flex-direction: column;
+  /*
+  @if $breakpoint ==xl {
+
+  	@media only screen and (miin-width: 80em) {
+  		@content;
+  	}
+
+  	//1280px
+  }
+
+  @if $breakpoint ==2xl {
+  	@media only screen and (max-width: 96em) {
+  		@content;
+  	}
+
+  	//1536px
+  }
+  */
+}
+.single-post .site-header .main-navigation .menu-toggle .handburger {
+  font-size: 40px;
+  font-weight: 800;
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+  color: #fff;
+}
+.single-post .site-header .main-navigation .menu-toggle .active {
+  color: #fff;
+  z-index: 3;
+  position: fixed;
+  right: -164px;
+}
+.single-post .site-header .main-navigation .menu-toggle .mobile-list {
+  width: 100%;
+  display: none;
+}
+.single-post .site-header .main-navigation .menu-toggle .mobile-list .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.single-post .site-header .main-navigation .menu-toggle .mobile-list .mobile-menu .menu-item {
+  list-style: none;
+}
+.single-post .site-header .main-navigation .menu-toggle .mobile-list .mobile-menu .menu-item a {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Simonetta;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+}
+.single-post .site-header .main-navigation .menu-toggle .mobile-list-menu {
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  background-color: #ff2546;
+  height: 100%;
+  width: 100%;
+  left: -2px;
+  top: 0;
+  z-index: 2;
+  transition: background-color 4ms ease-in;
+}
+.single-post .site-header .main-navigation .menu-toggle .mobile-list-menu .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+  margin: auto;
+}
+.single-post .site-header .main-navigation .menu-toggle .mobile-list-menu .mobile-menu .menu-item {
+  list-style: none;
+}
+.single-post .site-header .main-navigation .menu-toggle .mobile-list-menu .mobile-menu .menu-item a {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Simonetta;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+@media only screen and (min-width: 40em) {
+  .single-post .site-header .main-navigation .menu-toggle {
+    display: none;
+  }
 }
 .single-post .site-header .main-navigation .nav-buttom-list {
   width: 100%;
+  display: none;
 }
 .single-post .site-header .main-navigation .nav-buttom-list .list-menu {
   width: 100%;
@@ -1073,7 +1177,7 @@ $breakpoint arguments choices:
   font-family: Simonetta;
   font-weight: 700;
   font-size: 18px;
-  color: #fff;
+  color: #333;
 }
 .single-post .site-main .main-blog-section {
   width: 100%;
@@ -1102,7 +1206,7 @@ $breakpoint arguments choices:
 }
 .single-post .site-main .main-blog-section .site-wrapper .blog-title-wrapper .main-blog-title h3 {
   color: #fff;
-  font-size: 49px;
+  font-size: 42px;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -1138,6 +1242,7 @@ $breakpoint arguments choices:
   background-color: transparent;
   font-weight: 400;
   font-size: 18px;
+  color: #000;
 }
 .single-post .site-main .blog-content-section .blog-content-wrapper .site-wrapper .blog-content-top p {
   font-weight: 700;
@@ -1176,7 +1281,7 @@ $breakpoint arguments choices:
 }
 .single-post .site-main .contact-section .site-wrapper .contact-section-content h3 {
   color: #fff;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -1184,7 +1289,7 @@ $breakpoint arguments choices:
 .single-post .site-main .contact-section .site-wrapper .contact-section-content p {
   color: #fff;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 17px;
@@ -1216,6 +1321,7 @@ $breakpoint arguments choices:
   }
   .single-post .site-header .main-navigation .nav-buttom-list {
     width: 100%;
+    display: flex;
   }
   .single-post .site-header .main-navigation .nav-buttom-list .list-menu {
     width: 100%;
@@ -1573,7 +1679,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 }
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .wrap span {
   width: 100%;
-  height: 178px;
+  height: 190px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1585,6 +1691,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
+  line-height: 20px;
 }
 body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .lighting2 {
   display: none;
@@ -1872,7 +1979,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 .footer-section .site-wrapper .footer-holder .footer-first-section .first .header h3 {
   margin-top: 0;
   margin-bottom: 0;
-  width: 51%;
+  width: 58%;
 }
 .footer-section .site-wrapper .footer-holder .footer-first-section .first .paragragh {
   width: 100%;
@@ -1952,6 +2059,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   align-items: center;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 20px;
 }
 .footer-section .site-wrapper .footer-holder .footer-first-section .second .contact span:nth-of-type(2) p span:nth-of-type(1) {
   text-decoration: underline;

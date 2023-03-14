@@ -78,7 +78,7 @@ $post_id = get_the_ID();
                                         <p> <?php if($count3 === 1){
                                             echo truncate($post_content, 148);
                                         } else {?> 
-                                        <?php echo truncate($post_content, 90); }?></p>
+                                        <?php echo truncate($post_content, 80); }?></p>
                                     
                                         <span class="read-more">
                                             <h4><a href="#">Business</a></h4>
