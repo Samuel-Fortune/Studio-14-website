@@ -13,14 +13,14 @@
 }
 
 .togglemenu {
-	transition: all .5s ease-in;
-	animation: rotate_first .5s ease-in;
+	transition: all 0.5s ease-in;
+	animation: rotate_first 0.5s ease-in;
 	transform: rotate(45deg);
 }
 
 .togglemenu_rotate {
-	transition: all .5s ease-in;
-	animation: rotate_second .5s ease-in;
+	transition: all 0.5s ease-in;
+	animation: rotate_second 0.5s ease-in;
 	transform: rotate(-45deg);
 }
 

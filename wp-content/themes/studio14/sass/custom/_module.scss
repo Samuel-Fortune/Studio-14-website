@@ -66,7 +66,7 @@
 					left: -2px;
 					top: 0;
 					z-index: 2;
-					transition: all .10s ease-in-out;
+					transition: all 0.9s 0.5s ease-in-out;
 
 					.mobile-menu {
 						display: flex;
@@ -965,20 +965,8 @@
 				background: none;
 				flex-direction: column;
 
-				.handburger {
-					font-size: 40px;
-					font-weight: 800;
-					height: 50px;
-					width: 100%;
-					z-index: 2;
-					color: $secondary-color;
-				}
-
 				.active {
-					color: $secondary-color;
-					z-index: 3;
-					position: fixed;
-					right: -164px;
+					background-color: $secondary-color;
 				}
 
 				.mobile-list {
@@ -1042,6 +1030,26 @@
 					}
 				}
 
+				.handburger-container {
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					gap: 5px;
+					z-index: 4;
+
+					.handburger {
+						position: relative;
+						background-color: $secondary-color;
+						padding: 2px;
+						width: 35px;
+
+						// span:nth-child(1) {
+						// 	top: 10px;
+
+						// }
+					}
+
+				}
 
 				@include respond(sm) {
 					display: none;
