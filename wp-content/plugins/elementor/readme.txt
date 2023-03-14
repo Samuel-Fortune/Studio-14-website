@@ -1,10 +1,11 @@
 === Elementor Website Builder ===
 Contributors: elemntor
 Tags: page builder, editor, landing page, drag-and-drop, elementor, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
-Requires at least: 5.0
+Requires at least: 5.9
 Tested up to: 6.1
 Requires PHP: 7.0
-Stable tag: 3.11.3
+Stable tag: 3.11.2
+Beta tag: 3.12.0-beta1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -146,7 +147,7 @@ There is also a managed security [Bug Bounty program](https://go.elementor.com/w
 
 = Minimum Requirements =
 
-* WordPress 5.0 or greater
+* WordPress 5.9 or greater
 * PHP version 7.0 or greater
 * MySQL version 5.0 or greater
 
@@ -239,11 +240,6 @@ You can also add a new language via [translate.wordpress.org](https://go.element
 == Changelog ==
 
 See Elementor Developer Edition versions changelog [here](https://go.elementor.com/dev-changelog/)
-
-= 3.11.3 - 2023-03-07 =
-
-* Fix: Lightbox is not presented as expected when Upgrade Swiper Library experiment is activated ([#21413](https://github.com/elementor/elementor/issues/21413))
-* Fix: "Choose Image" control is missing in Safari 14 in various image elements
 
 = 3.11.2 - 2023-02-22 =
 

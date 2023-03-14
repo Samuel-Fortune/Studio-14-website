@@ -1,0 +1,1 @@
+__("Help","elementor"),__("Keyboard Shortcuts","elementor");

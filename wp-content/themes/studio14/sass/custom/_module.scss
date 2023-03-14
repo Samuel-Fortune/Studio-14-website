@@ -23,6 +23,15 @@
 					font-weight: 800;
 					height: 50px;
 					width: 100%;
+					z-index: 2;
+					color: $primary-color;
+				}
+
+				.active {
+					color: white;
+					z-index: 3;
+					position: fixed;
+					right: -164px;
 				}
 
 				.mobile-list {
@@ -51,14 +60,23 @@
 				}
 
 				.mobile-list-menu {
-					width: 100%;
 					display: flex;
 					gap: 20px;
+					position: fixed;
+					background-color: red;
+					height: 100%;
+					width: 100%;
+					left: -2px;
+					top: 0;
+					z-index: 2;
+					transition: background-color 4ms ease-in;
 
 					.mobile-menu {
 						display: flex;
 						flex-direction: column;
 						justify-content: space-between;
+						height: 50%;
+						margin: auto;
 
 						.menu-item {
 							list-style: none;
@@ -70,9 +88,10 @@
 								font-family: Simonetta;
 								font-weight: 700;
 								font-size: $Large-sizing;
-								color: $header-color;
+								color: $secondary-color;
 							}
 						}
+
 					}
 				}
 
@@ -177,9 +196,10 @@
 
 			h2 {
 				font-weight: 300;
-				font-size: 29px;
+				font-size: 25px;
 				margin-top: 0;
 				margin-bottom: 0;
+				line-height: 45px;
 			}
 		}
 
@@ -888,7 +908,7 @@
 
 			.lighting2 {
 				position: absolute;
-				top: 123rem;
+				top: 125rem;
 				left: 178px;
 				display: flex;
 			}
@@ -1600,7 +1620,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 				.contact-title-wrapper {
 
 					span {
-						width: 40%;
+						width: 49%;
 						height: 22%;
 						display: flex;
 						flex-direction: column;
@@ -1815,10 +1835,11 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 								}
 
 								span {
-									width: 447px;
+									width: 487px;
 									height: 178px;
 									display: flex;
 									flex-direction: column;
+									padding-top: 19px;
 
 									p {
 										margin-bottom: 0;
@@ -1827,13 +1848,14 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 										font-size: 16px;
 										font-weight: 400;
 										font-style: normal;
+										line-height: 20px;
 									}
 								}
 							}
 
 							.lighting2 {
 								position: absolute;
-								top: 108rem;
+								top: 107rem;
 								left: 180px;
 								display: flex;
 							}
@@ -2130,7 +2152,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 							button {
 								width: 157px;
-								height: 48px;
+								height: 52px;
 								background-color: $tertiary-color;
 								color: $secondary-color;
 								border: none;

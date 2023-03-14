@@ -1,0 +1,1 @@
+__("Publish","elementor"),__("Submit","elementor"),__("Preview Changes","elementor"),__("%s Settings","elementor");

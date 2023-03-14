@@ -1,0 +1,1 @@
+__("Add Element","elementor"),__("Elements","elementor");

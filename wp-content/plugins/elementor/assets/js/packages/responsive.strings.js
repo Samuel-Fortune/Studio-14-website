@@ -1,0 +1,1 @@
+__("%s (%dpx and up)","elementor"),__("%s (up to %dpx)","elementor"),__("Desktop","elementor");

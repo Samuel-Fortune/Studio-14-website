@@ -1,4 +1,4 @@
-/*! elementor - v3.11.3 - 07-03-2023 */
+/*! elementor - v3.11.2 - 05-03-2023 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["preloaded-modules"],{
 
 /***/ "../assets/dev/js/frontend/handlers/accordion.js":
@@ -1826,8 +1826,8 @@ module.exports = elementorModules.ViewModule.extend({
       };
       if (!isSingleSlide) {
         swiperOptions.navigation = {
-          prevEl: $prevButton[0],
-          nextEl: $nextButton[0]
+          prevEl: $prevButton,
+          nextEl: $nextButton
         };
       }
       if (options.swiper) {

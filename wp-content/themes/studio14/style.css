@@ -100,6 +100,7 @@ body {
   background-color: #e5e5e5;
   font-family: "Brown";
   width: 100%;
+  color: #000;
 }
 
 html {
@@ -261,6 +262,14 @@ $breakpoint arguments choices:
   font-weight: 800;
   height: 50px;
   width: 100%;
+  z-index: 2;
+  color: #000;
+}
+.nav nav .main-navigation .menu-toggle .active {
+  color: white;
+  z-index: 3;
+  position: fixed;
+  right: -164px;
 }
 .nav nav .main-navigation .menu-toggle .mobile-list {
   width: 100%;
@@ -284,14 +293,23 @@ $breakpoint arguments choices:
   color: #333;
 }
 .nav nav .main-navigation .menu-toggle .mobile-list-menu {
-  width: 100%;
   display: flex;
   gap: 20px;
+  position: fixed;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  left: -2px;
+  top: 0;
+  z-index: 2;
+  transition: background-color 4ms ease-in;
 }
 .nav nav .main-navigation .menu-toggle .mobile-list-menu .mobile-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 50%;
+  margin: auto;
 }
 .nav nav .main-navigation .menu-toggle .mobile-list-menu .mobile-menu .menu-item {
   list-style: none;
@@ -303,7 +321,7 @@ $breakpoint arguments choices:
   font-family: Simonetta;
   font-weight: 700;
   font-size: 18px;
-  color: #333;
+  color: #fff;
 }
 @media only screen and (min-width: 40em) {
   .nav nav .main-navigation .menu-toggle {
@@ -404,9 +422,10 @@ $breakpoint arguments choices:
 }
 .banner .banner1 span:nth-of-type(1) h2 {
   font-weight: 300;
-  font-size: 29px;
+  font-size: 25px;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 45px;
 }
 .banner .banner1 .filter-posts {
   display: flex;
@@ -999,7 +1018,7 @@ $breakpoint arguments choices:
   }
   .banner .banner2 .lighting2 {
     position: absolute;
-    top: 123rem;
+    top: 125rem;
     left: 178px;
     display: flex;
   }
@@ -1590,7 +1609,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
     padding-bottom: 87px;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main section#post-79 .contact-title-wrapper span {
-    width: 40%;
+    width: 49%;
     height: 22%;
     display: flex;
     flex-direction: column;
@@ -1773,10 +1792,11 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
     padding-top: 103px;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .wrap span {
-    width: 447px;
+    width: 487px;
     height: 178px;
     display: flex;
     flex-direction: column;
+    padding-top: 19px;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .wrap span p {
     margin-bottom: 0;
@@ -1785,10 +1805,11 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
+    line-height: 20px;
   }
   body.page-template.page-template-page-contact.page-template-page-contact-php.page.page-id-79.custom-background.wp-custom-logo .site-main .address-section .site-wrapper .address-wrapper .first .lighting2 {
     position: absolute;
-    top: 108rem;
+    top: 107rem;
     left: 180px;
     display: flex;
   }
@@ -2054,7 +2075,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
   }
   .footer-section .site-wrapper .footer-holder .footer-first-section .first .form button {
     width: 157px;
-    height: 48px;
+    height: 52px;
     background-color: #ff2546;
     color: #fff;
     border: none;
