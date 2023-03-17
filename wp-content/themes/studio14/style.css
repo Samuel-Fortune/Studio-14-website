@@ -392,7 +392,7 @@ $breakpoint arguments choices:
   }
   .nav nav .main-navigation {
     display: flex;
-    width: 450px;
+    width: 60%;
     padding-top: 0;
   }
   .nav nav .main-navigation .nav-buttom-list {
@@ -419,6 +419,20 @@ $breakpoint arguments choices:
   .nav nav .main-navigation .nav-buttom-list .list-menu .menu-item a:active {
     color: #ff2546;
   }
+}
+
+article#post-127 .entry-header {
+  display: none;
+}
+article#post-127 .input-text {
+  background: transparent;
+}
+
+article#post-164 .entry-header {
+  display: none;
+}
+article#post-164 .input-text {
+  background: transparent;
 }
 
 .banner {
@@ -511,6 +525,7 @@ $breakpoint arguments choices:
     margin-top: 0;
     margin-bottom: 0;
     line-height: 60px;
+    text-align: start;
   }
   .banner .banner1 .filter-posts {
     display: flex;
@@ -1160,7 +1175,7 @@ $breakpoint arguments choices:
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50%;
+  height: 45%;
   margin: auto;
 }
 .single-post .site-header .main-navigation .menu-toggle .mobile-list-menu .mobile-menu .menu-item {
@@ -1245,6 +1260,7 @@ $breakpoint arguments choices:
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
 }
 .single-post .site-main .blog-content-section {
   background-color: #f7f7f7;
@@ -1295,8 +1311,9 @@ $breakpoint arguments choices:
 }
 .single-post .site-main .blog-content-section .blog-content-wrapper .site-wrapper span h3 {
   padding: 20px;
-  font-size: 26px !important;
+  font-size: 19px !important;
   font-weight: 400;
+  text-align: center;
 }
 .single-post .site-main .contact-section {
   background-color: #000;
@@ -1351,7 +1368,7 @@ $breakpoint arguments choices:
   }
   .single-post .site-header .main-navigation {
     display: flex;
-    width: 385px;
+    width: 60%;
     padding-top: 0;
   }
   .single-post .site-header .main-navigation .nav-buttom-list {
