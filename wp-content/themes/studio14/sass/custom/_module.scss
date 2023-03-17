@@ -47,7 +47,7 @@
 								list-style: none;
 								text-decoration: none;
 								font-style: normal;
-								font-family: Simonetta;
+								font-family: Brown;
 								font-weight: 700;
 								font-size: $Large-sizing;
 								color: $header-color;
@@ -72,7 +72,7 @@
 						display: flex;
 						flex-direction: column;
 						justify-content: space-between;
-						height: 50%;
+						height: 40%;
 						margin: auto;
 
 						.menu-item {
@@ -82,7 +82,7 @@
 								list-style: none;
 								text-decoration: none;
 								font-style: normal;
-								font-family: Simonetta;
+								font-family: Brown;
 								font-weight: 700;
 								font-size: $Large-sizing;
 								color: $secondary-color;
@@ -136,7 +136,7 @@
 							list-style: none;
 							text-decoration: none;
 							font-style: normal;
-							font-family: Simonetta;
+							font-family: Brown;
 							font-weight: 700;
 							font-size: $Large-sizing;
 							color: $header-color;
@@ -160,7 +160,7 @@
 
 			.main-navigation {
 				display: flex;
-				width: 385px;
+				width: 450px;
 				padding-top: 0;
 
 				.nav-buttom-list {
@@ -179,10 +179,14 @@
 								list-style: none;
 								text-decoration: none;
 								font-style: normal;
-								font-family: Simonetta;
+								font-family: Brown;
 								font-weight: 700;
 								font-size: $Large-sizing;
 								color: $header-color;
+							}
+
+							a:active {
+								color: $tertiary-color;
 							}
 						}
 					}
@@ -218,6 +222,7 @@
 				margin-top: 0;
 				margin-bottom: 0;
 				line-height: 45px;
+				text-align: center;
 			}
 		}
 
@@ -326,7 +331,6 @@
 			width: 100%;
 
 			.blog-image {
-				height: 100%;
 				display: flex;
 
 				img {
@@ -671,7 +675,7 @@
 							margin-top: 0;
 							margin-bottom: 0;
 							font-style: normal;
-							font-weight: 400;
+							font-weight: 300;
 							font-size: 16px;
 							color: $primary-color;
 							padding-top: 26.3px;
@@ -768,7 +772,7 @@
 								margin-top: 0;
 								margin-bottom: 0;
 								font-style: normal;
-								font-weight: 400;
+								font-weight: 300;
 								font-size: 16px;
 								color: $primary-color;
 								padding-top: 32px;
@@ -871,7 +875,7 @@
 								margin-top: 0;
 								margin-bottom: 0;
 								font-style: normal;
-								font-weight: 400;
+								font-weight: 300;
 								font-size: 16px;
 								color: $primary-color;
 								padding-top: 0;
@@ -932,7 +936,7 @@
 
 			.lighting2 {
 				position: absolute;
-				top: 128rem;
+				top: 126rem;
 				left: 178px;
 				display: flex;
 			}
@@ -985,7 +989,7 @@
 								list-style: none;
 								text-decoration: none;
 								font-style: normal;
-								font-family: Simonetta;
+								font-family: Brown;
 								font-weight: 700;
 								font-size: $Large-sizing;
 								color: $header-color;
@@ -1020,7 +1024,7 @@
 								list-style: none;
 								text-decoration: none;
 								font-style: normal;
-								font-family: Simonetta;
+								font-family: Brown;
 								font-weight: 700;
 								font-size: $Large-sizing;
 								color: $secondary-color;
@@ -1073,7 +1077,7 @@
 							list-style: none;
 							text-decoration: none;
 							font-style: normal;
-							font-family: Simonetta;
+							font-family: Brown;
 							font-weight: 700;
 							font-size: $Large-sizing;
 							color: $header-color;
@@ -1191,7 +1195,7 @@
 
 						h3 {
 							padding: 20px;
-							font-size: 31px !important;
+							font-size: 26px !important;
 							font-weight: 400;
 
 						}
@@ -1284,7 +1288,7 @@
 								list-style: none;
 								text-decoration: none;
 								font-style: normal;
-								font-family: Simonetta;
+								font-family: Brown;
 								font-weight: 700;
 								font-size: $Large-sizing;
 								color: $secondary-color;
@@ -1508,7 +1512,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 					p {
 						font-style: normal;
-						font-weight: 500;
+						font-weight: 300;
 						font-size: 16px;
 						letter-spacing: -0.02em;
 						color: $primary-color;
@@ -1767,7 +1771,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 
 						p {
 							font-style: normal;
-							font-weight: 500;
+							font-weight: 300;
 							font-size: 16px;
 							letter-spacing: -0.02em;
 							color: $primary-color;
@@ -2041,6 +2045,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 							margin-top: 0;
 							margin-bottom: 0;
 							width: 58%;
+							text-align: center;
 						}
 					}
 
@@ -2060,6 +2065,8 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 							display: flex;
 							align-items: center;
 							justify-content: center;
+							font-weight: 300;
+							text-align: center;
 						}
 					}
 
@@ -2088,6 +2095,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 							color: $secondary-color;
 							border: none;
 							cursor: pointer;
+							font-size: 12px;
 						}
 					}
 				}
@@ -2104,6 +2112,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 						justify-content: center;
 						align-items: center;
 						width: 100%;
+						text-align: center;
 
 						span:nth-of-type(1) {
 							width: 100%;
@@ -2130,7 +2139,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 								align-items: center;
 								margin-top: 0;
 								margin-bottom: 0;
-								line-height: 20px;
+								line-height: 10px;
 
 								span:nth-of-type(1) {
 									text-decoration: underline;
@@ -2147,7 +2156,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 								}
 
 								span:nth-of-type(3) {
-									text-decoration: underline;
+									text-decoration: none;
 								}
 							}
 						}
@@ -2254,6 +2263,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 							padding-top: 33px;
 							display: flex;
 							justify-content: flex-start;
+							text-align: start;
 
 							p {
 								width: 100%;
@@ -2261,6 +2271,8 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 								margin-top: 0;
 								margin-bottom: 0;
 								line-height: 19px;
+								font-weight: 300;
+								text-align: start;
 							}
 						}
 
@@ -2287,6 +2299,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 								color: $secondary-color;
 								border: none;
 								cursor: pointer;
+								font-size: 12px;
 							}
 						}
 					}
@@ -2302,6 +2315,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 							flex-direction: column;
 							justify-content: flex-start;
 							align-items: flex-start;
+							text-align: start;
 
 							span:nth-of-type(1) {
 								width: 100%;
@@ -2338,11 +2352,11 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 										margin-top: 0;
 										padding-top: 0;
 										font-size: 12px;
-										line-height: 15px;
+										line-height: 10px;
 									}
 
 									span:nth-of-type(3) {
-										text-decoration: underline;
+										text-decoration: none;
 									}
 								}
 							}
