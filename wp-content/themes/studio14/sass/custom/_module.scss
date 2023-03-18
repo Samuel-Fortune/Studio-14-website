@@ -11,6 +11,11 @@
 		.main-navigation {
 			padding-top: 0;
 
+			.main-navigation > .nav-buttom-list
+			ul > li.current-menu-item a {
+				color: #bdbdbd !important;
+			}
+
 			.menu-toggle {
 				display: flex;
 				border: none;
@@ -163,6 +168,12 @@
 				width: 60%;
 				padding-top: 0;
 
+				.main-navigation
+				ul > li.current-menu-item a {
+
+					color: $secondary-color !important;
+				}
+
 				.nav-buttom-list {
 					width: 100%;
 					display: flex;
@@ -183,10 +194,6 @@
 								font-weight: 700;
 								font-size: $Large-sizing;
 								color: $header-color;
-							}
-
-							a:active {
-								color: $tertiary-color;
 							}
 						}
 					}
