@@ -26,7 +26,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'studio14' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<h  eader id="masthead" class="site-header">
 		<!--NAV-->
 		<div class="nav">
 			<div class="site-wrapper">
@@ -80,4 +80,4 @@
 
 			</div>
 		</div>
-	</header><!-- #masthead -->
+	</h><!-- #masthead -->

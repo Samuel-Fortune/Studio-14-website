@@ -966,7 +966,7 @@ article#post-164 {
 
 			.lighting2 {
 				position: absolute;
-				top: 126rem;
+				top: 128rem;
 				left: 178px;
 				display: flex;
 			}
@@ -1521,7 +1521,7 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 		section#post-79 {
 			width: 100%;
 			padding-top: 116px;
-			padding-bottom: 87px;
+			padding-bottom: 30px;
 
 			.contact-title-wrapper {
 
@@ -1658,6 +1658,22 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 									border-color: none;
 									box-shadow: none;
 									border: none;
+								}
+
+								input::placeholder {
+									color: $primary-color !important;
+									font-style: normal;
+									font-weight: 400;
+									font-size: 18px;
+									line-height: 0;
+								}
+
+								textarea::placeholder {
+									color: $primary-color !important;
+									font-style: normal;
+									font-weight: 400;
+									font-size: 18px;
+									line-height: 0;
 								}
 
 								p:nth-of-type(5) {
@@ -1924,6 +1940,22 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 										border: none;
 									}
 
+									input::placeholder {
+										color: $primary-color !important;
+										font-style: normal;
+										font-weight: 400;
+										font-size: 18px;
+										line-height: 0;
+									}
+
+									textarea::placeholder {
+										color: $primary-color !important;
+										font-style: normal;
+										font-weight: 400;
+										font-size: 18px;
+										line-height: 0;
+									}
+
 									p:nth-of-type(5) {
 										background: #000;
 										width: 179px;
@@ -2118,6 +2150,12 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 							color: $secondary-color;
 							padding-left: 36px;
 							height: 45px;
+						}
+
+						input::placeholder {
+							color: $secondary-color !important;
+							font-size: 16px;
+							line-height: 12px;
 						}
 
 						button {
@@ -2322,6 +2360,12 @@ body.page-template.page-template-page-contact.page-template-page-contact-php.pag
 								background-color: $primary-color;
 								color: $secondary-color;
 								padding-left: 36px;
+							}
+
+							input::placeholder {
+								color: $secondary-color !important;
+								font-size: 16px;
+								line-height: 12px;
 							}
 
 							button {
