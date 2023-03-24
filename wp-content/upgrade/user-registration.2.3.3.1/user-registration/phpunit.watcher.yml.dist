@@ -1,7 +1,0 @@
-watch:
-  directories:
-    - includes
-    - tests/phpunit
-notifications:
-  passingTests: false
-  failingTests: false
