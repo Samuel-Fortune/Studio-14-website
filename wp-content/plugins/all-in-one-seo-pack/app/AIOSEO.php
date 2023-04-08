@@ -273,7 +273,6 @@ namespace AIOSEO\Plugin {
 				$translations->init();
 			}
 
-			$this->thirdParty         = new Common\ThirdParty\ThirdParty();
 			$this->addons             = $this->pro ? new Pro\Utils\Addons() : new Common\Utils\Addons();
 			$this->features           = $this->pro ? new Pro\Utils\Features() : new Common\Utils\Features();
 			$this->tags               = $this->pro ? new Pro\Utils\Tags() : new Common\Utils\Tags();

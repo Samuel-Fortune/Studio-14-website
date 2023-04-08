@@ -37,7 +37,8 @@ class Post extends Model {
 		'images',
 		'videos',
 		'open_ai',
-		'options'
+		'options',
+		'local_seo'
 	];
 
 	/**
@@ -432,7 +433,7 @@ class Post extends Model {
 		$thePost->schema                      = ! empty( $data['schema'] )
 			? wp_json_encode( self::getDefaultSchemaOptions( $data['schema'] ) )
 			: wp_json_encode( self::getDefaultSchemaOptions() );
-		$thePost->local_seo                   = ! empty( $data['local_seo'] ) ? wp_json_encode( $data['local_seo'] ) : null;
+		$thePost->local_seo                   = ! empty( $data['local_seo'] ) ? $data['local_seo'] : null;
 		$thePost->limit_modified_date         = isset( $data['limit_modified_date'] ) ? rest_sanitize_boolean( $data['limit_modified_date'] ) : 0;
 		$thePost->open_ai                     = ! empty( $data['open_ai'] )
 			? wp_json_encode( self::getDefaultOpenAiOptions( $data['open_ai'] ) )

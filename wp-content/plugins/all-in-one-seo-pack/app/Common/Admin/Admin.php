@@ -647,6 +647,14 @@ class Admin {
 			];
 		}
 
+		if ( current_user_can( $this->getPageRequiredCapability( 'aioseo-search-statistics' ) ) ) {
+			$submenu['index.php'][] = [
+				esc_html__( 'SEO Statistics', 'all-in-one-seo-pack' ),
+				$this->getPageRequiredCapability( 'aioseo-search-statistics' ),
+				admin_url( '/admin.php?page=aioseo-search-statistics' )
+			];
+		}
+
 		// We use the global submenu, because we are adding an external link here.
 		$count         = count( Models\Notification::getAllActiveNotifications() );
 		$firstPageSlug = $this->getFirstAvailablePageSlug();
@@ -825,6 +833,7 @@ class Admin {
 			add_action( 'admin_enqueue_scripts', [ aioseo()->filters, 'dequeueThirdPartyAssets' ], 99999 );
 			add_action( 'admin_enqueue_scripts', [ aioseo()->filters, 'dequeueThirdPartyAssetsEarly' ], 0 );
 
+			add_action( 'in_admin_footer', [ $this, 'addFooterPromotion' ] );
 			add_filter( 'admin_footer_text', [ $this, 'addFooterText' ] );
 
 			// Only enqueue the media library if we need it in our module
@@ -876,6 +885,20 @@ class Admin {
 	public function enqueueAssets() {
 		$page = str_replace( '{page}', $this->currentPage, $this->assetSlugs['pages'] );
 		aioseo()->core->assets->load( $page, [], aioseo()->helpers->getVueData( $this->currentPage ) );
+	}
+
+	/**
+	 * Outputs the element we can mount our footer promotion standalone Vue app on.
+	 * Also enqueues the assets.
+	 *
+	 * @since 4.3.4
+	 *
+	 * @return void
+	 */
+	public function addFooterPromotion() {
+		echo wp_kses_post( '<div id="aioseo-footer-links"></div>' );
+
+		aioseo()->core->assets->load( 'src/vue/standalone/footer-links/main.js' );
 	}
 
 	/**

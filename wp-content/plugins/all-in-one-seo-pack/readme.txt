@@ -1,10 +1,10 @@
 === All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings & Increase Traffic ===
 Contributors: aioseo, smub, benjaminprojas
 Tags: SEO, Google Search Console, XML Sitemap, meta description, schema, meta title, rich snippets, woocommerce seo, local seo, open graph, google news sitemap, video sitemap, robots.txt, seo audit, content analysis, seo plugin, redirection
-Tested up to: 6.1.1
+Tested up to: 6.2
 Requires at least: 4.9
 Requires PHP: 5.6
-Stable tag: 4.3.3
+Stable tag: 4.3.4.1
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -256,6 +256,20 @@ Visit <a href="http://www.wpbeginner.com/" rel="friend" title="WPBeginner">WPBeg
 
 
 == Changelog ==
+
+**New in Version 4.3.4.1**
+
+* Fixed: Classic Editor sometimes freezes up due to conflict with new emoji script in WordPress 6.2.
+
+**New in Version 4.3.4**
+
+* Updated: Our SEO data is now carried over when a post is duplicated for rewriting/republishing via the Yoast Duplicate Post plugin.
+* Updated: Added a menu item for Search Statistics under the Dashboard menu.
+* Updated: Improved PHP 8.1 compatibility.
+* Updated: Better prevent caching conflicts between IndexNow addon and WP Fastest Cache.
+* Fixed: RSS sitemap stylesheet not displaying the publication date anymore.
+* Fixed: Search Statistics is now able to link the static homepage to the right data after a new static homepage has been set.
+* Fixed: Harmless occasional developer console error when the Emoji Picker is opened.
 
 **New in Version 4.3.3**
 
@@ -523,6 +537,6 @@ Additionally, AIOSEO can also provide you with data on the most frequently used 
 
 == Upgrade Notice ==
 
-= 4.3.3 =
+= 4.3.4.1 =
 
 This update adds major improvements and bug fixes.

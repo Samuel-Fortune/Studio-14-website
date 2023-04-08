@@ -236,7 +236,7 @@ if ( '/sitemap.rss' === $sitemapPath ) {
 									'sitemap/xsl/partials/date-time.php',
 									[
 										'datetime' => $xslParams['datetime'],
-										'node'     => 'sitemap:loc'
+										'node'     => 'link'
 									]
 								);
 							}

@@ -1899,6 +1899,7 @@ $generated_i18n_strings = [
 	__( 'Do you have multiple authors?', 'all-in-one-seo-pack' ),
 
 	// Reference: /src/vue/components/common/core/Help.vue:30
+	// Reference: /src/vue/standalone/footer-links/App.vue:18
 	__( 'Docs', 'all-in-one-seo-pack' ),
 
 	// Reference: /src/vue/pages/settings/views/GeneralSettings.vue:51
@@ -2445,6 +2446,9 @@ $generated_i18n_strings = [
 	// Reference: /src/vue/components/lite/core/UpgradeBar.vue:16
 	// Reference: /src/vue/pages/settings/views/GeneralSettings.vue:27
 	__( 'Free', 'all-in-one-seo-pack' ),
+
+	// Reference: /src/vue/standalone/footer-links/App.vue:19
+	__( 'Free Plugins', 'all-in-one-seo-pack' ),
 
 	// Reference: /src/vue/components/common/core/PriorityScore.vue:35
 	// Reference: /src/vue/pages/sitemaps/views/AdditionalPages.vue:103
@@ -3508,6 +3512,9 @@ $generated_i18n_strings = [
 
 	// Reference: /src/vue/pages/search-appearance/views/lite/image-seo/Blur.vue:89
 	__( 'Lower Case', 'all-in-one-seo-pack' ),
+
+	// Reference: /src/vue/standalone/footer-links/App.vue:16
+	__( 'Made with ♥ by the AIOSEO Team', 'all-in-one-seo-pack' ),
 
 	// Reference: /src/vue/pages/search-appearance/views/lite/image-seo/Blur.vue:94
 	__( 'Major words are capitalized and minor words remain in their original casing.', 'all-in-one-seo-pack' ),
@@ -5424,6 +5431,7 @@ $generated_i18n_strings = [
 	__( 'Super! 🔥🔥🔥', 'all-in-one-seo-pack' ),
 
 	// Reference: /src/vue/pages/dashboard/views/Main.vue:79
+	// Reference: /src/vue/standalone/footer-links/App.vue:17
 	__( 'Support', 'all-in-one-seo-pack' ),
 
 	// Reference: /src/vue/standalone/flyout-menu/App.vue:35

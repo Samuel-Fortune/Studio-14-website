@@ -38,10 +38,10 @@ class Helpers {
 	 */
 	public function cleanAndParseData( $data, $parentKey = '' ) {
 		foreach ( $data as $k => &$v ) {
-			if ( is_array( $v ) ) {
-				$v = $this->cleanAndParseData( $v, $k );
-			} elseif ( is_numeric( $v ) || is_bool( $v ) ) {
+			if ( is_numeric( $v ) || is_bool( $v ) || is_null( $v ) ) {
 				// Do nothing.
+			} elseif ( is_array( $v ) ) {
+				$v = $this->cleanAndParseData( $v, $k );
 			} else {
 				// Check if the prop can contain some HTML tags.
 				if (
